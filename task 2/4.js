@@ -27,9 +27,9 @@
       }
   }
   ]
-console.log(library[0].price);
-console.log(library[1].authordetails.age);
-console.log(library[0].readers[1].count); //
+console.log(library[0].price);     //printing the price
+console.log(library[1].authordetails.age); //printing author age
+console.log(library[0].readers[1].count); //printing count of readers[1]
 
   
 Output:
