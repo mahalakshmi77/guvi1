@@ -27,15 +27,15 @@
       }
   }
    ]
-  console.log(typeof(library[1].authordetails.age));
-console.log(library[0].readers[1].count = 500);
- library.push("{title : sql",
+  console.log(typeof(library[1].authordetails.age));    //typeof age
+console.log(library[0].readers[1].count = 500);         //increment the count of person2
+ library.push("{title : sql",                           // adding an new object
                 "price : 700}");
 console.log(library);
-library[1].readers.push("{name : person1","count : 400}");
+library[1].readers.push("{name : person1","count : 400}"); //adding object to readers
 console.log(library[1].readers);
-console.log(library[0].readers[0].email ="email1@gmail.com");
-console.log(library[0].readers[1].email ="email2@gmail.com");
+console.log(library[0].readers[0].email ="email1@gmail.com"); //adding emailid to person1
+console.log(library[0].readers[1].email ="email2@gmail.com"); //adding emailid to person2
 console.log(library[0].readers); //
 
 
