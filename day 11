@@ -1,0 +1,1079 @@
+//build resume in dom
+
+<html>
+    <body style="margin:0px">
+        <div id="my_div1"></div>
+        <script>
+            var a=document.createElement("div");
+            a.setAttribute("style","width:1600px;height:250px;background-color:grey;margin-bottom:30px");
+            var b=document.getElementById('my_div1');
+            b.appendChild(a)
+            var c=document.createElement("div");
+            c.setAttribute("style","width:1600px;height:75px;background-color:grey;");
+            b.appendChild(c)
+            var d=document.createElement("img")
+            d.src="https://avatars3.githubusercontent.com/u/34521140?s=460&u=76c8dd7afc5f3905467ba0090ac5fe070184e85a&v=4"
+            d.setAttribute("style","width:200px;height:200px;border-radius:100%;margin-left:600px;margin-top:40px;border:4px dotted yellow;")
+            a.appendChild(d)
+            var e=document.createElement("div");
+            e.setAttribute("style","width:400px;height:80px;background-color:yellow;border-radius:20px;margin-left:500px;position:relative;bottom:50px;text-align:center;font-size:50px;padding-top:5px;color:brown");
+            e.innerText="BRIAN DUDEY"
+            e.innerText.bold
+            c.appendChild(e)
+            var g=document.createElement("b");
+            b.appendChild(g);
+            var f=document.createElement("div");
+            f.innerText="N.damen avenue chicago 999|999999999|hello@kickresume.com"
+            f.setAttribute("style","margin-left:490px;font-size:15px;font-family:calibri")
+            g.appendChild(f)
+            var h=document.createElement("hr");
+            b.appendChild(h)
+           var i=document.createElement("div")
+           i.setAttribute("style","height:100%;width:70%")
+           b.appendChild(i)
+           var j=document.createElement("link")
+           j.href="https://fonts.googleapis.com/icon?family=Material+Icons"
+           j.rel="stylesheet"
+           document.head.appendChild(j)
+           var h=document.createElement("img");
+           h.src="https://cdn.onlinewebfonts.com/svg/img_507357.png"
+           h.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.appendChild(h)
+           var k=document.createElement("div")
+           k.innerText="profile"
+           k.setAttribute("style","font-size:40px;transform:capitalise;position:relative;left:60px;bottom:50px;color:grey;")
+           i.appendChild(k)
+           var br=document.createElement("br")
+           i.appendChild(br)
+           var l=document.createElement("div")
+           l.setAttribute("style","font-size:20px;text-align:left;width:70%")
+           l.innerText="Innovative optimised solution seeker.excited to be at the deployment phase of the new carrer as a developer.I am ambitious,adventorous and an advocate"
+           i.appendChild(l)
+           var image=document.createElement("img")
+           image.src="https://cdn2.iconfinder.com/data/icons/education-and-learning-16/48/8-Learning_skill-512.png"
+           image.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.append(image)
+           var skill=document.createElement("div")
+           skill.innerText="skills"
+           skill.setAttribute("style","font-size:40px;transform:capitalise;position:absolute;top:590px;left:60px;bottom:30px;color:grey")
+           i.appendChild(skill)
+           var tskill=document.createElement("div")
+           tskill.innerText="Technical skill"
+           tskill.setAttribute("style","margin-left:240px;margin-top:10px;margin-bottom:30px")
+           i.append(tskill)
+           var java=document.createElement("span")
+           java.innerText="javascript"
+           java.setAttribute("style","margin-left:30px;")
+           i.appendChild(java)
+           var progress=document.createElement("progress")
+           progress.setAttribute("max",100)
+           progress.setAttribute("value",60)
+           progress.setAttribute("style","background-color: goldenrod;margin-left: 40px;")
+           java.appendChild(progress)
+           i.append(br)
+           var html=document.createElement("span")
+           html.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:730px;right:500px;left:10px")
+           html.innerText="HTML"
+           i.appendChild(html)
+           var progress1=document.createElement("progress")
+           progress1.setAttribute("max",100)
+           progress1.setAttribute("value",80)
+           progress1.setAttribute("style","background-color: goldenrod;margin-left: 55px;")
+           html.appendChild(progress1)
+           var css=document.createElement("span")
+           css.setAttribute("style","margin-left:20px;margin-bottom:100px;position:relative;top:80px;right:270px")
+           css.innerText="css"
+           i.appendChild(css)
+           var progress2=document.createElement("progress")
+           progress2.setAttribute("max",100)
+           progress2.setAttribute("value",80)
+           progress2.setAttribute("style","background-color: goldenrod;margin-left: 70px;")
+           css.appendChild(progress2)
+           i.append(br)
+           var tskill1=document.createElement("div")
+           tskill1.innerText="Additional skill"
+           tskill1.setAttribute("style","margin-left:240px;margin-top:110px;margin-bottom:30px")
+           i.append(tskill1)
+           var java1=document.createElement("span")
+           java1.innerText="team leader"
+           java1.setAttribute("style","margin-left:20px;")
+           i.appendChild(java1)
+           var progress3=document.createElement("progress")
+           progress3.setAttribute("max",100)
+           progress3.setAttribute("value",60)
+           progress3.setAttribute("style","background-color: goldenrod;margin-left: 33px;")
+           java1.appendChild(progress3)
+           i.append(br)
+           var html1=document.createElement("span")
+           html1.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:760px;right:500px;left:5px")
+           html1.innerText="Editing"
+           i.appendChild(html1)
+           var progress4=document.createElement("progress")
+           progress4.setAttribute("max",100)
+           progress4.setAttribute("value",80)
+           progress4.setAttribute("style","background-color: goldenrod;margin-left: 55px;margin-top:150px")
+           html1.appendChild(progress4)
+           i.append(br)
+           var css1=document.createElement("span")
+           css1.setAttribute("style","margin-bottom:100px;margin-top:900px;position:absolute;top:60px;right:1100px;left:20px")
+           css1.innerText="fund raising"
+           i.appendChild(css1)
+           var progress5=document.createElement("progress")
+           progress5.setAttribute("max",100)
+           progress5.setAttribute("value",80)
+           progress5.setAttribute("style","background-color: goldenrod;margin-left: 30px;position:absolute")
+           css1.appendChild(progress5)
+           i.append(br)
+           var image1=document.createElement("img")
+           image1.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image1.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;top:1030px")
+           b.appendChild(image1)
+           var work=document.createElement("div")
+           work.innerText="Work Experience"
+           work.setAttribute("style","font-size:30px;transform:capitalise;position:relative;left:50px;bottom:10px;color:grey")
+           b.appendChild(work)
+           var bold=document.createElement('b')
+           bold.innerText="Event Manager"
+           bold.setAttribute("style","font-size:20px;color:black;text align:left")
+           b.appendChild(bold)
+           var right=document.createElement("div")
+           right.setAttribute("style","font-size:18px;position:absolute;left:35%;top:1080px")
+           right.innerText="03/2014 - 02/2017"
+           b.appendChild(right)
+          bold.append(right)
+           var para1=document.createElement("div")
+           b.appendChild(para1)
+           var order=document.createElement("ul")
+           para1.appendChild(order)
+           var list=document.createElement("li")
+           list.innerText="Leads and executes all phases of event planning and production spanning commitee recuirtment,training and on-site facilitation"
+           list.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list)
+           
+           var list1=document.createElement("li")
+           list1.innerText="Brought new bussiness to the organisation through relentless networking and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list1.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list1)
+          
+           var list2=document.createElement("li")
+           list2.innerText="Exercise fiscal control over budget creation and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list2.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list2)
+           var vertical=document.createElement("div")
+           vertical.setAttribute( "style","height:1000px;border-left:2px solid black;position:absolute;left:740px;top:400px")
+           b.appendChild(vertical)
+
+           var s=document.createElement("div")
+           s.setAttribute("style","width:50%:height:100%;text-align:right")
+           b.append(s)
+           var image3=document.createElement("img")
+           image3.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image3.setAttribute("style","width:40px;height:40px;border-radius:100%;border:2px dotted yellow;position:relative;bottom:940px;right:41%;")
+           s.appendChild(image3)
+           var work1=document.createElement("div")
+           work1.innerText="Work Experience"
+           work1.setAttribute("style","font-size:30px;position:relative;bottom:980px;right:340px;color:grey")
+           s.appendChild(work1)
+        
+           var left1=document.createElement("span")
+           left1.innerText="community relation manager"
+           left1.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:340px;bottom:180px")
+           bold.append(left1)
+           var para2=document.createElement("div")
+           s.appendChild(para2)
+
+           var date2=document.createElement("span")
+           date2.innerText="06/2011 - 04/2014"
+           date2.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:70%;text-align:right !important")
+           s.appendChild(date2)
+           bold.append(date2)
+
+           var order1=document.createElement("ul")
+           para2.appendChild(order1)
+
+           var list3=document.createElement("li")
+           list3.innerText="Arranging presentation and pitch deck"
+           list3.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:520px")
+           order1.appendChild(list3)
+
+           var list4=document.createElement("li")
+           list4.innerText="Designing a PR plan and establishing important focus point"
+           list4.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:560px")
+           order1.appendChild(list4)
+
+           var list5=document.createElement("li")
+           list5.innerText="Designing creating and managing communications across multiple platforms"
+           list5.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:600px;text-align:left !important")
+           order1.appendChild(list5)
+
+
+           var dummy=document.createElement("div")
+           s.append(dummy)
+           var image5=document.createElement("img")
+           image5.src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Education%2C_Studying%2C_University%2C_Alumni_-_icon.png"
+           image5.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;bottom:10px;top:700px;right:560px")
+           dummy.appendChild(image5)
+            var edu=document.createElement("div")
+            edu.innerText="Education"
+            edu.setAttribute("style","font-size:30px;position:relative;bottom:730px;right:430px;color:grey")
+            dummy.appendChild(edu)
+            var eng=document.createElement("span")
+            eng.innerText="Engineering immersion program"
+            eng.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:320px;bottom:10px;top:770px")
+            dummy.appendChild(eng)
+            bold.append(eng)
+            var chicago=document.createElement("span")
+            chicago.innerText="Thinkful,chicago ||"
+            chicago.setAttribute("style","font-size:15px;text-align:left;position:absolute;right:480px;bottom:10px;top:820px")
+            dummy.appendChild(chicago)
+            bold.append(chicago)
+
+           var date=document.createElement("span")
+           date.innerText="11/2018 - 06/2018"
+           date.setAttribute("style","font-size:18px;position:absolute;right:5%;bottom:1%;top:119%")
+           dummy.appendChild(date)
+           bold.append(date)
+
+           var order2=document.createElement("ul")
+           dummy.appendChild(order2)
+           var list6=document.createElement("li")
+           list6.innerText="Developed a full stack web application that allows the user to explore various aspects of meditaion.users progress is stored on backend created by using mongoDB and node"
+           list6.setAttribute("style","font-size:20px;position:relative;bottom:630px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list6)
+           var list7=document.createElement("li")
+           list7.innerText="Developed a language learning app foodie and phonetics using spaced repition and linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list7.setAttribute("style","font-size:20px;position:relative;bottom:600px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list7)
+           
+           var list8=document.createElement("li")
+           list8.innerText="Developed a conceirge app for individuals looking for suggestion for the places they visit linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list8.setAttribute("style","font-size:20px;position:relative;bottom:560px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list8)
+
+           var div=document.createElement("div")
+           div.innerText="BA English"
+           div.setAttribute("style","position:absolute;font-size:20px;text-align:left;left:60%;top:200% !important")
+           s.appendChild(div)
+           bold.append(div)
+           var div1=document.createElement("div")
+           div1.innerText="University of los angles,california"
+           div1.setAttribute("style","position:absolute;font-size:18px;text-align:left;left:60%;top:205% !important")
+           s.appendChild(div1)
+
+           var date1=document.createElement("span")
+           date1.innerText="09/2001 - 06/2002"
+           date1.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:200%")
+           s.appendChild(date1)
+           bold.append(date1)
+        
+           </script>
+
+    </body>
+</html><html>
+    <body style="margin:0px">
+        <div id="my_div1"></div>
+        <script>
+            var a=document.createElement("div");
+            a.setAttribute("style","width:1600px;height:250px;background-color:grey;margin-bottom:30px");
+            var b=document.getElementById('my_div1');
+            b.appendChild(a)
+            var c=document.createElement("div");
+            c.setAttribute("style","width:1600px;height:75px;background-color:grey;");
+            b.appendChild(c)
+            var d=document.createElement("img")
+            d.src="https://avatars3.githubusercontent.com/u/34521140?s=460&u=76c8dd7afc5f3905467ba0090ac5fe070184e85a&v=4"
+            d.setAttribute("style","width:200px;height:200px;border-radius:100%;margin-left:600px;margin-top:40px;border:4px dotted yellow;")
+            a.appendChild(d)
+            var e=document.createElement("div");
+            e.setAttribute("style","width:400px;height:80px;background-color:yellow;border-radius:20px;margin-left:500px;position:relative;bottom:50px;text-align:center;font-size:50px;padding-top:5px;color:brown");
+            e.innerText="BRIAN DUDEY"
+            e.innerText.bold
+            c.appendChild(e)
+            var g=document.createElement("b");
+            b.appendChild(g);
+            var f=document.createElement("div");
+            f.innerText="N.damen avenue chicago 999|999999999|hello@kickresume.com"
+            f.setAttribute("style","margin-left:490px;font-size:15px;font-family:calibri")
+            g.appendChild(f)
+            var h=document.createElement("hr");
+            b.appendChild(h)
+           var i=document.createElement("div")
+           i.setAttribute("style","height:100%;width:70%")
+           b.appendChild(i)
+           var j=document.createElement("link")
+           j.href="https://fonts.googleapis.com/icon?family=Material+Icons"
+           j.rel="stylesheet"
+           document.head.appendChild(j)
+           var h=document.createElement("img");
+           h.src="https://cdn.onlinewebfonts.com/svg/img_507357.png"
+           h.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.appendChild(h)
+           var k=document.createElement("div")
+           k.innerText="profile"
+           k.setAttribute("style","font-size:40px;transform:capitalise;position:relative;left:60px;bottom:50px;color:grey;")
+           i.appendChild(k)
+           var br=document.createElement("br")
+           i.appendChild(br)
+           var l=document.createElement("div")
+           l.setAttribute("style","font-size:20px;text-align:left;width:70%")
+           l.innerText="Innovative optimised solution seeker.excited to be at the deployment phase of the new carrer as a developer.I am ambitious,adventorous and an advocate"
+           i.appendChild(l)
+           var image=document.createElement("img")
+           image.src="https://cdn2.iconfinder.com/data/icons/education-and-learning-16/48/8-Learning_skill-512.png"
+           image.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.append(image)
+           var skill=document.createElement("div")
+           skill.innerText="skills"
+           skill.setAttribute("style","font-size:40px;transform:capitalise;position:absolute;top:590px;left:60px;bottom:30px;color:grey")
+           i.appendChild(skill)
+           var tskill=document.createElement("div")
+           tskill.innerText="Technical skill"
+           tskill.setAttribute("style","margin-left:240px;margin-top:10px;margin-bottom:30px")
+           i.append(tskill)
+           var java=document.createElement("span")
+           java.innerText="javascript"
+           java.setAttribute("style","margin-left:30px;")
+           i.appendChild(java)
+           var progress=document.createElement("progress")
+           progress.setAttribute("max",100)
+           progress.setAttribute("value",60)
+           progress.setAttribute("style","background-color: goldenrod;margin-left: 40px;")
+           java.appendChild(progress)
+           i.append(br)
+           var html=document.createElement("span")
+           html.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:730px;right:500px;left:10px")
+           html.innerText="HTML"
+           i.appendChild(html)
+           var progress1=document.createElement("progress")
+           progress1.setAttribute("max",100)
+           progress1.setAttribute("value",80)
+           progress1.setAttribute("style","background-color: goldenrod;margin-left: 55px;")
+           html.appendChild(progress1)
+           var css=document.createElement("span")
+           css.setAttribute("style","margin-left:20px;margin-bottom:100px;position:relative;top:80px;right:270px")
+           css.innerText="css"
+           i.appendChild(css)
+           var progress2=document.createElement("progress")
+           progress2.setAttribute("max",100)
+           progress2.setAttribute("value",80)
+           progress2.setAttribute("style","background-color: goldenrod;margin-left: 70px;")
+           css.appendChild(progress2)
+           i.append(br)
+           var tskill1=document.createElement("div")
+           tskill1.innerText="Additional skill"
+           tskill1.setAttribute("style","margin-left:240px;margin-top:110px;margin-bottom:30px")
+           i.append(tskill1)
+           var java1=document.createElement("span")
+           java1.innerText="team leader"
+           java1.setAttribute("style","margin-left:20px;")
+           i.appendChild(java1)
+           var progress3=document.createElement("progress")
+           progress3.setAttribute("max",100)
+           progress3.setAttribute("value",60)
+           progress3.setAttribute("style","background-color: goldenrod;margin-left: 33px;")
+           java1.appendChild(progress3)
+           i.append(br)
+           var html1=document.createElement("span")
+           html1.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:760px;right:500px;left:5px")
+           html1.innerText="Editing"
+           i.appendChild(html1)
+           var progress4=document.createElement("progress")
+           progress4.setAttribute("max",100)
+           progress4.setAttribute("value",80)
+           progress4.setAttribute("style","background-color: goldenrod;margin-left: 55px;margin-top:150px")
+           html1.appendChild(progress4)
+           i.append(br)
+           var css1=document.createElement("span")
+           css1.setAttribute("style","margin-bottom:100px;margin-top:900px;position:absolute;top:60px;right:1100px;left:20px")
+           css1.innerText="fund raising"
+           i.appendChild(css1)
+           var progress5=document.createElement("progress")
+           progress5.setAttribute("max",100)
+           progress5.setAttribute("value",80)
+           progress5.setAttribute("style","background-color: goldenrod;margin-left: 30px;position:absolute")
+           css1.appendChild(progress5)
+           i.append(br)
+           var image1=document.createElement("img")
+           image1.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image1.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;top:1030px")
+           b.appendChild(image1)
+           var work=document.createElement("div")
+           work.innerText="Work Experience"
+           work.setAttribute("style","font-size:30px;transform:capitalise;position:relative;left:50px;bottom:10px;color:grey")
+           b.appendChild(work)
+           var bold=document.createElement('b')
+           bold.innerText="Event Manager"
+           bold.setAttribute("style","font-size:20px;color:black;text align:left")
+           b.appendChild(bold)
+           var right=document.createElement("div")
+           right.setAttribute("style","font-size:18px;position:absolute;left:35%;top:1080px")
+           right.innerText="03/2014 - 02/2017"
+           b.appendChild(right)
+          bold.append(right)
+           var para1=document.createElement("div")
+           b.appendChild(para1)
+           var order=document.createElement("ul")
+           para1.appendChild(order)
+           var list=document.createElement("li")
+           list.innerText="Leads and executes all phases of event planning and production spanning commitee recuirtment,training and on-site facilitation"
+           list.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list)
+           
+           var list1=document.createElement("li")
+           list1.innerText="Brought new bussiness to the organisation through relentless networking and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list1.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list1)
+          
+           var list2=document.createElement("li")
+           list2.innerText="Exercise fiscal control over budget creation and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list2.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list2)
+           var vertical=document.createElement("div")
+           vertical.setAttribute( "style","height:1000px;border-left:2px solid black;position:absolute;left:740px;top:400px")
+           b.appendChild(vertical)
+
+           var s=document.createElement("div")
+           s.setAttribute("style","width:50%:height:100%;text-align:right")
+           b.append(s)
+           var image3=document.createElement("img")
+           image3.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image3.setAttribute("style","width:40px;height:40px;border-radius:100%;border:2px dotted yellow;position:relative;bottom:940px;right:41%;")
+           s.appendChild(image3)
+           var work1=document.createElement("div")
+           work1.innerText="Work Experience"
+           work1.setAttribute("style","font-size:30px;position:relative;bottom:980px;right:340px;color:grey")
+           s.appendChild(work1)
+        
+           var left1=document.createElement("span")
+           left1.innerText="community relation manager"
+           left1.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:340px;bottom:180px")
+           bold.append(left1)
+           var para2=document.createElement("div")
+           s.appendChild(para2)
+
+           var date2=document.createElement("span")
+           date2.innerText="06/2011 - 04/2014"
+           date2.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:70%;text-align:right !important")
+           s.appendChild(date2)
+           bold.append(date2)
+
+           var order1=document.createElement("ul")
+           para2.appendChild(order1)
+
+           var list3=document.createElement("li")
+           list3.innerText="Arranging presentation and pitch deck"
+           list3.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:520px")
+           order1.appendChild(list3)
+
+           var list4=document.createElement("li")
+           list4.innerText="Designing a PR plan and establishing important focus point"
+           list4.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:560px")
+           order1.appendChild(list4)
+
+           var list5=document.createElement("li")
+           list5.innerText="Designing creating and managing communications across multiple platforms"
+           list5.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:600px;text-align:left !important")
+           order1.appendChild(list5)
+
+
+           var dummy=document.createElement("div")
+           s.append(dummy)
+           var image5=document.createElement("img")
+           image5.src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Education%2C_Studying%2C_University%2C_Alumni_-_icon.png"
+           image5.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;bottom:10px;top:700px;right:560px")
+           dummy.appendChild(image5)
+            var edu=document.createElement("div")
+            edu.innerText="Education"
+            edu.setAttribute("style","font-size:30px;position:relative;bottom:730px;right:430px;color:grey")
+            dummy.appendChild(edu)
+            var eng=document.createElement("span")
+            eng.innerText="Engineering immersion program"
+            eng.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:320px;bottom:10px;top:770px")
+            dummy.appendChild(eng)
+            bold.append(eng)
+            var chicago=document.createElement("span")
+            chicago.innerText="Thinkful,chicago ||"
+            chicago.setAttribute("style","font-size:15px;text-align:left;position:absolute;right:480px;bottom:10px;top:820px")
+            dummy.appendChild(chicago)
+            bold.append(chicago)
+
+           var date=document.createElement("span")
+           date.innerText="11/2018 - 06/2018"
+           date.setAttribute("style","font-size:18px;position:absolute;right:5%;bottom:1%;top:119%")
+           dummy.appendChild(date)
+           bold.append(date)
+
+           var order2=document.createElement("ul")
+           dummy.appendChild(order2)
+           var list6=document.createElement("li")
+           list6.innerText="Developed a full stack web application that allows the user to explore various aspects of meditaion.users progress is stored on backend created by using mongoDB and node"
+           list6.setAttribute("style","font-size:20px;position:relative;bottom:630px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list6)
+           var list7=document.createElement("li")
+           list7.innerText="Developed a language learning app foodie and phonetics using spaced repition and linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list7.setAttribute("style","font-size:20px;position:relative;bottom:600px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list7)
+           
+           var list8=document.createElement("li")
+           list8.innerText="Developed a conceirge app for individuals looking for suggestion for the places they visit linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list8.setAttribute("style","font-size:20px;position:relative;bottom:560px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list8)
+
+           var div=document.createElement("div")
+           div.innerText="BA English"
+           div.setAttribute("style","position:absolute;font-size:20px;text-align:left;left:60%;top:200% !important")
+           s.appendChild(div)
+           bold.append(div)
+           var div1=document.createElement("div")
+           div1.innerText="University of los angles,california"
+           div1.setAttribute("style","position:absolute;font-size:18px;text-align:left;left:60%;top:205% !important")
+           s.appendChild(div1)
+
+           var date1=document.createElement("span")
+           date1.innerText="09/2001 - 06/2002"
+           date1.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:200%")
+           s.appendChild(date1)
+           bold.append(date1)
+        
+           </script>
+
+    </body>
+</html><html>
+    <body style="margin:0px">
+        <div id="my_div1"></div>
+        <script>
+            var a=document.createElement("div");
+            a.setAttribute("style","width:1600px;height:250px;background-color:grey;margin-bottom:30px");
+            var b=document.getElementById('my_div1');
+            b.appendChild(a)
+            var c=document.createElement("div");
+            c.setAttribute("style","width:1600px;height:75px;background-color:grey;");
+            b.appendChild(c)
+            var d=document.createElement("img")
+            d.src="https://avatars3.githubusercontent.com/u/34521140?s=460&u=76c8dd7afc5f3905467ba0090ac5fe070184e85a&v=4"
+            d.setAttribute("style","width:200px;height:200px;border-radius:100%;margin-left:600px;margin-top:40px;border:4px dotted yellow;")
+            a.appendChild(d)
+            var e=document.createElement("div");
+            e.setAttribute("style","width:400px;height:80px;background-color:yellow;border-radius:20px;margin-left:500px;position:relative;bottom:50px;text-align:center;font-size:50px;padding-top:5px;color:brown");
+            e.innerText="BRIAN DUDEY"
+            e.innerText.bold
+            c.appendChild(e)
+            var g=document.createElement("b");
+            b.appendChild(g);
+            var f=document.createElement("div");
+            f.innerText="N.damen avenue chicago 999|999999999|hello@kickresume.com"
+            f.setAttribute("style","margin-left:490px;font-size:15px;font-family:calibri")
+            g.appendChild(f)
+            var h=document.createElement("hr");
+            b.appendChild(h)
+           var i=document.createElement("div")
+           i.setAttribute("style","height:100%;width:70%")
+           b.appendChild(i)
+           var j=document.createElement("link")
+           j.href="https://fonts.googleapis.com/icon?family=Material+Icons"
+           j.rel="stylesheet"
+           document.head.appendChild(j)
+           var h=document.createElement("img");
+           h.src="https://cdn.onlinewebfonts.com/svg/img_507357.png"
+           h.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.appendChild(h)
+           var k=document.createElement("div")
+           k.innerText="profile"
+           k.setAttribute("style","font-size:40px;transform:capitalise;position:relative;left:60px;bottom:50px;color:grey;")
+           i.appendChild(k)
+           var br=document.createElement("br")
+           i.appendChild(br)
+           var l=document.createElement("div")
+           l.setAttribute("style","font-size:20px;text-align:left;width:70%")
+           l.innerText="Innovative optimised solution seeker.excited to be at the deployment phase of the new carrer as a developer.I am ambitious,adventorous and an advocate"
+           i.appendChild(l)
+           var image=document.createElement("img")
+           image.src="https://cdn2.iconfinder.com/data/icons/education-and-learning-16/48/8-Learning_skill-512.png"
+           image.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.append(image)
+           var skill=document.createElement("div")
+           skill.innerText="skills"
+           skill.setAttribute("style","font-size:40px;transform:capitalise;position:absolute;top:590px;left:60px;bottom:30px;color:grey")
+           i.appendChild(skill)
+           var tskill=document.createElement("div")
+           tskill.innerText="Technical skill"
+           tskill.setAttribute("style","margin-left:240px;margin-top:10px;margin-bottom:30px")
+           i.append(tskill)
+           var java=document.createElement("span")
+           java.innerText="javascript"
+           java.setAttribute("style","margin-left:30px;")
+           i.appendChild(java)
+           var progress=document.createElement("progress")
+           progress.setAttribute("max",100)
+           progress.setAttribute("value",60)
+           progress.setAttribute("style","background-color: goldenrod;margin-left: 40px;")
+           java.appendChild(progress)
+           i.append(br)
+           var html=document.createElement("span")
+           html.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:730px;right:500px;left:10px")
+           html.innerText="HTML"
+           i.appendChild(html)
+           var progress1=document.createElement("progress")
+           progress1.setAttribute("max",100)
+           progress1.setAttribute("value",80)
+           progress1.setAttribute("style","background-color: goldenrod;margin-left: 55px;")
+           html.appendChild(progress1)
+           var css=document.createElement("span")
+           css.setAttribute("style","margin-left:20px;margin-bottom:100px;position:relative;top:80px;right:270px")
+           css.innerText="css"
+           i.appendChild(css)
+           var progress2=document.createElement("progress")
+           progress2.setAttribute("max",100)
+           progress2.setAttribute("value",80)
+           progress2.setAttribute("style","background-color: goldenrod;margin-left: 70px;")
+           css.appendChild(progress2)
+           i.append(br)
+           var tskill1=document.createElement("div")
+           tskill1.innerText="Additional skill"
+           tskill1.setAttribute("style","margin-left:240px;margin-top:110px;margin-bottom:30px")
+           i.append(tskill1)
+           var java1=document.createElement("span")
+           java1.innerText="team leader"
+           java1.setAttribute("style","margin-left:20px;")
+           i.appendChild(java1)
+           var progress3=document.createElement("progress")
+           progress3.setAttribute("max",100)
+           progress3.setAttribute("value",60)
+           progress3.setAttribute("style","background-color: goldenrod;margin-left: 33px;")
+           java1.appendChild(progress3)
+           i.append(br)
+           var html1=document.createElement("span")
+           html1.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:760px;right:500px;left:5px")
+           html1.innerText="Editing"
+           i.appendChild(html1)
+           var progress4=document.createElement("progress")
+           progress4.setAttribute("max",100)
+           progress4.setAttribute("value",80)
+           progress4.setAttribute("style","background-color: goldenrod;margin-left: 55px;margin-top:150px")
+           html1.appendChild(progress4)
+           i.append(br)
+           var css1=document.createElement("span")
+           css1.setAttribute("style","margin-bottom:100px;margin-top:900px;position:absolute;top:60px;right:1100px;left:20px")
+           css1.innerText="fund raising"
+           i.appendChild(css1)
+           var progress5=document.createElement("progress")
+           progress5.setAttribute("max",100)
+           progress5.setAttribute("value",80)
+           progress5.setAttribute("style","background-color: goldenrod;margin-left: 30px;position:absolute")
+           css1.appendChild(progress5)
+           i.append(br)
+           var image1=document.createElement("img")
+           image1.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image1.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;top:1030px")
+           b.appendChild(image1)
+           var work=document.createElement("div")
+           work.innerText="Work Experience"
+           work.setAttribute("style","font-size:30px;transform:capitalise;position:relative;left:50px;bottom:10px;color:grey")
+           b.appendChild(work)
+           var bold=document.createElement('b')
+           bold.innerText="Event Manager"
+           bold.setAttribute("style","font-size:20px;color:black;text align:left")
+           b.appendChild(bold)
+           var right=document.createElement("div")
+           right.setAttribute("style","font-size:18px;position:absolute;left:35%;top:1080px")
+           right.innerText="03/2014 - 02/2017"
+           b.appendChild(right)
+          bold.append(right)
+           var para1=document.createElement("div")
+           b.appendChild(para1)
+           var order=document.createElement("ul")
+           para1.appendChild(order)
+           var list=document.createElement("li")
+           list.innerText="Leads and executes all phases of event planning and production spanning commitee recuirtment,training and on-site facilitation"
+           list.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list)
+           
+           var list1=document.createElement("li")
+           list1.innerText="Brought new bussiness to the organisation through relentless networking and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list1.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list1)
+          
+           var list2=document.createElement("li")
+           list2.innerText="Exercise fiscal control over budget creation and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list2.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list2)
+           var vertical=document.createElement("div")
+           vertical.setAttribute( "style","height:1000px;border-left:2px solid black;position:absolute;left:740px;top:400px")
+           b.appendChild(vertical)
+
+           var s=document.createElement("div")
+           s.setAttribute("style","width:50%:height:100%;text-align:right")
+           b.append(s)
+           var image3=document.createElement("img")
+           image3.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image3.setAttribute("style","width:40px;height:40px;border-radius:100%;border:2px dotted yellow;position:relative;bottom:940px;right:41%;")
+           s.appendChild(image3)
+           var work1=document.createElement("div")
+           work1.innerText="Work Experience"
+           work1.setAttribute("style","font-size:30px;position:relative;bottom:980px;right:340px;color:grey")
+           s.appendChild(work1)
+        
+           var left1=document.createElement("span")
+           left1.innerText="community relation manager"
+           left1.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:340px;bottom:180px")
+           bold.append(left1)
+           var para2=document.createElement("div")
+           s.appendChild(para2)
+
+           var date2=document.createElement("span")
+           date2.innerText="06/2011 - 04/2014"
+           date2.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:70%;text-align:right !important")
+           s.appendChild(date2)
+           bold.append(date2)
+
+           var order1=document.createElement("ul")
+           para2.appendChild(order1)
+
+           var list3=document.createElement("li")
+           list3.innerText="Arranging presentation and pitch deck"
+           list3.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:520px")
+           order1.appendChild(list3)
+
+           var list4=document.createElement("li")
+           list4.innerText="Designing a PR plan and establishing important focus point"
+           list4.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:560px")
+           order1.appendChild(list4)
+
+           var list5=document.createElement("li")
+           list5.innerText="Designing creating and managing communications across multiple platforms"
+           list5.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:600px;text-align:left !important")
+           order1.appendChild(list5)
+
+
+           var dummy=document.createElement("div")
+           s.append(dummy)
+           var image5=document.createElement("img")
+           image5.src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Education%2C_Studying%2C_University%2C_Alumni_-_icon.png"
+           image5.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;bottom:10px;top:700px;right:560px")
+           dummy.appendChild(image5)
+            var edu=document.createElement("div")
+            edu.innerText="Education"
+            edu.setAttribute("style","font-size:30px;position:relative;bottom:730px;right:430px;color:grey")
+            dummy.appendChild(edu)
+            var eng=document.createElement("span")
+            eng.innerText="Engineering immersion program"
+            eng.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:320px;bottom:10px;top:770px")
+            dummy.appendChild(eng)
+            bold.append(eng)
+            var chicago=document.createElement("span")
+            chicago.innerText="Thinkful,chicago ||"
+            chicago.setAttribute("style","font-size:15px;text-align:left;position:absolute;right:480px;bottom:10px;top:820px")
+            dummy.appendChild(chicago)
+            bold.append(chicago)
+
+           var date=document.createElement("span")
+           date.innerText="11/2018 - 06/2018"
+           date.setAttribute("style","font-size:18px;position:absolute;right:5%;bottom:1%;top:119%")
+           dummy.appendChild(date)
+           bold.append(date)
+
+           var order2=document.createElement("ul")
+           dummy.appendChild(order2)
+           var list6=document.createElement("li")
+           list6.innerText="Developed a full stack web application that allows the user to explore various aspects of meditaion.users progress is stored on backend created by using mongoDB and node"
+           list6.setAttribute("style","font-size:20px;position:relative;bottom:630px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list6)
+           var list7=document.createElement("li")
+           list7.innerText="Developed a language learning app foodie and phonetics using spaced repition and linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list7.setAttribute("style","font-size:20px;position:relative;bottom:600px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list7)
+           
+           var list8=document.createElement("li")
+           list8.innerText="Developed a conceirge app for individuals looking for suggestion for the places they visit linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list8.setAttribute("style","font-size:20px;position:relative;bottom:560px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list8)
+
+           var div=document.createElement("div")
+           div.innerText="BA English"
+           div.setAttribute("style","position:absolute;font-size:20px;text-align:left;left:60%;top:200% !important")
+           s.appendChild(div)
+           bold.append(div)
+           var div1=document.createElement("div")
+           div1.innerText="University of los angles,california"
+           div1.setAttribute("style","position:absolute;font-size:18px;text-align:left;left:60%;top:205% !important")
+           s.appendChild(div1)
+
+           var date1=document.createElement("span")
+           date1.innerText="09/2001 - 06/2002"
+           date1.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:200%")
+           s.appendChild(date1)
+           bold.append(date1)
+        
+           </script>
+
+    </body>
+</html><html>
+    <body style="margin:0px">
+        <div id="my_div1"></div>
+        <script>
+            var a=document.createElement("div");
+            a.setAttribute("style","width:1600px;height:250px;background-color:grey;margin-bottom:30px");
+            var b=document.getElementById('my_div1');
+            b.appendChild(a)
+            var c=document.createElement("div");
+            c.setAttribute("style","width:1600px;height:75px;background-color:grey;");
+            b.appendChild(c)
+            var d=document.createElement("img")
+            d.src="https://avatars3.githubusercontent.com/u/34521140?s=460&u=76c8dd7afc5f3905467ba0090ac5fe070184e85a&v=4"
+            d.setAttribute("style","width:200px;height:200px;border-radius:100%;margin-left:600px;margin-top:40px;border:4px dotted yellow;")
+            a.appendChild(d)
+            var e=document.createElement("div");
+            e.setAttribute("style","width:400px;height:80px;background-color:yellow;border-radius:20px;margin-left:500px;position:relative;bottom:50px;text-align:center;font-size:50px;padding-top:5px;color:brown");
+            e.innerText="BRIAN DUDEY"
+            e.innerText.bold
+            c.appendChild(e)
+            var g=document.createElement("b");
+            b.appendChild(g);
+            var f=document.createElement("div");
+            f.innerText="N.damen avenue chicago 999|999999999|hello@kickresume.com"
+            f.setAttribute("style","margin-left:490px;font-size:15px;font-family:calibri")
+            g.appendChild(f)
+            var h=document.createElement("hr");
+            b.appendChild(h)
+           var i=document.createElement("div")
+           i.setAttribute("style","height:100%;width:70%")
+           b.appendChild(i)
+           var j=document.createElement("link")
+           j.href="https://fonts.googleapis.com/icon?family=Material+Icons"
+           j.rel="stylesheet"
+           document.head.appendChild(j)
+           var h=document.createElement("img");
+           h.src="https://cdn.onlinewebfonts.com/svg/img_507357.png"
+           h.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.appendChild(h)
+           var k=document.createElement("div")
+           k.innerText="profile"
+           k.setAttribute("style","font-size:40px;transform:capitalise;position:relative;left:60px;bottom:50px;color:grey;")
+           i.appendChild(k)
+           var br=document.createElement("br")
+           i.appendChild(br)
+           var l=document.createElement("div")
+           l.setAttribute("style","font-size:20px;text-align:left;width:70%")
+           l.innerText="Innovative optimised solution seeker.excited to be at the deployment phase of the new carrer as a developer.I am ambitious,adventorous and an advocate"
+           i.appendChild(l)
+           var image=document.createElement("img")
+           image.src="https://cdn2.iconfinder.com/data/icons/education-and-learning-16/48/8-Learning_skill-512.png"
+           image.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;margin-top:30px")
+           i.append(image)
+           var skill=document.createElement("div")
+           skill.innerText="skills"
+           skill.setAttribute("style","font-size:40px;transform:capitalise;position:absolute;top:590px;left:60px;bottom:30px;color:grey")
+           i.appendChild(skill)
+           var tskill=document.createElement("div")
+           tskill.innerText="Technical skill"
+           tskill.setAttribute("style","margin-left:240px;margin-top:10px;margin-bottom:30px")
+           i.append(tskill)
+           var java=document.createElement("span")
+           java.innerText="javascript"
+           java.setAttribute("style","margin-left:30px;")
+           i.appendChild(java)
+           var progress=document.createElement("progress")
+           progress.setAttribute("max",100)
+           progress.setAttribute("value",60)
+           progress.setAttribute("style","background-color: goldenrod;margin-left: 40px;")
+           java.appendChild(progress)
+           i.append(br)
+           var html=document.createElement("span")
+           html.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:730px;right:500px;left:10px")
+           html.innerText="HTML"
+           i.appendChild(html)
+           var progress1=document.createElement("progress")
+           progress1.setAttribute("max",100)
+           progress1.setAttribute("value",80)
+           progress1.setAttribute("style","background-color: goldenrod;margin-left: 55px;")
+           html.appendChild(progress1)
+           var css=document.createElement("span")
+           css.setAttribute("style","margin-left:20px;margin-bottom:100px;position:relative;top:80px;right:270px")
+           css.innerText="css"
+           i.appendChild(css)
+           var progress2=document.createElement("progress")
+           progress2.setAttribute("max",100)
+           progress2.setAttribute("value",80)
+           progress2.setAttribute("style","background-color: goldenrod;margin-left: 70px;")
+           css.appendChild(progress2)
+           i.append(br)
+           var tskill1=document.createElement("div")
+           tskill1.innerText="Additional skill"
+           tskill1.setAttribute("style","margin-left:240px;margin-top:110px;margin-bottom:30px")
+           i.append(tskill1)
+           var java1=document.createElement("span")
+           java1.innerText="team leader"
+           java1.setAttribute("style","margin-left:20px;")
+           i.appendChild(java1)
+           var progress3=document.createElement("progress")
+           progress3.setAttribute("max",100)
+           progress3.setAttribute("value",60)
+           progress3.setAttribute("style","background-color: goldenrod;margin-left: 33px;")
+           java1.appendChild(progress3)
+           i.append(br)
+           var html1=document.createElement("span")
+           html1.setAttribute("style","margin-left:20px;margin-bottom:100px;position:absolute;top:760px;right:500px;left:5px")
+           html1.innerText="Editing"
+           i.appendChild(html1)
+           var progress4=document.createElement("progress")
+           progress4.setAttribute("max",100)
+           progress4.setAttribute("value",80)
+           progress4.setAttribute("style","background-color: goldenrod;margin-left: 55px;margin-top:150px")
+           html1.appendChild(progress4)
+           i.append(br)
+           var css1=document.createElement("span")
+           css1.setAttribute("style","margin-bottom:100px;margin-top:900px;position:absolute;top:60px;right:1100px;left:20px")
+           css1.innerText="fund raising"
+           i.appendChild(css1)
+           var progress5=document.createElement("progress")
+           progress5.setAttribute("max",100)
+           progress5.setAttribute("value",80)
+           progress5.setAttribute("style","background-color: goldenrod;margin-left: 30px;position:absolute")
+           css1.appendChild(progress5)
+           i.append(br)
+           var image1=document.createElement("img")
+           image1.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image1.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;top:1030px")
+           b.appendChild(image1)
+           var work=document.createElement("div")
+           work.innerText="Work Experience"
+           work.setAttribute("style","font-size:30px;transform:capitalise;position:relative;left:50px;bottom:10px;color:grey")
+           b.appendChild(work)
+           var bold=document.createElement('b')
+           bold.innerText="Event Manager"
+           bold.setAttribute("style","font-size:20px;color:black;text align:left")
+           b.appendChild(bold)
+           var right=document.createElement("div")
+           right.setAttribute("style","font-size:18px;position:absolute;left:35%;top:1080px")
+           right.innerText="03/2014 - 02/2017"
+           b.appendChild(right)
+          bold.append(right)
+           var para1=document.createElement("div")
+           b.appendChild(para1)
+           var order=document.createElement("ul")
+           para1.appendChild(order)
+           var list=document.createElement("li")
+           list.innerText="Leads and executes all phases of event planning and production spanning commitee recuirtment,training and on-site facilitation"
+           list.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list)
+           
+           var list1=document.createElement("li")
+           list1.innerText="Brought new bussiness to the organisation through relentless networking and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list1.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list1)
+          
+           var list2=document.createElement("li")
+           list2.innerText="Exercise fiscal control over budget creation and stewardship which helped the company win the bid for the State Department  summit on the middle east and United States of women"
+           list2.setAttribute("style","font-size:20px;width:50%;margin:10px")
+           order.appendChild(list2)
+           var vertical=document.createElement("div")
+           vertical.setAttribute( "style","height:1000px;border-left:2px solid black;position:absolute;left:740px;top:400px")
+           b.appendChild(vertical)
+
+           var s=document.createElement("div")
+           s.setAttribute("style","width:50%:height:100%;text-align:right")
+           b.append(s)
+           var image3=document.createElement("img")
+           image3.src="http://cdn.onlinewebfonts.com/svg/download_378772.png"
+           image3.setAttribute("style","width:40px;height:40px;border-radius:100%;border:2px dotted yellow;position:relative;bottom:940px;right:41%;")
+           s.appendChild(image3)
+           var work1=document.createElement("div")
+           work1.innerText="Work Experience"
+           work1.setAttribute("style","font-size:30px;position:relative;bottom:980px;right:340px;color:grey")
+           s.appendChild(work1)
+        
+           var left1=document.createElement("span")
+           left1.innerText="community relation manager"
+           left1.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:340px;bottom:180px")
+           bold.append(left1)
+           var para2=document.createElement("div")
+           s.appendChild(para2)
+
+           var date2=document.createElement("span")
+           date2.innerText="06/2011 - 04/2014"
+           date2.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:70%;text-align:right !important")
+           s.appendChild(date2)
+           bold.append(date2)
+
+           var order1=document.createElement("ul")
+           para2.appendChild(order1)
+
+           var list3=document.createElement("li")
+           list3.innerText="Arranging presentation and pitch deck"
+           list3.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:520px")
+           order1.appendChild(list3)
+
+           var list4=document.createElement("li")
+           list4.innerText="Designing a PR plan and establishing important focus point"
+           list4.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:560px")
+           order1.appendChild(list4)
+
+           var list5=document.createElement("li")
+           list5.innerText="Designing creating and managing communications across multiple platforms"
+           list5.setAttribute("style","font-size:20px;position:absolute;bottom:400px;left:800px;top:600px;text-align:left !important")
+           order1.appendChild(list5)
+
+
+           var dummy=document.createElement("div")
+           s.append(dummy)
+           var image5=document.createElement("img")
+           image5.src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Education%2C_Studying%2C_University%2C_Alumni_-_icon.png"
+           image5.setAttribute("style","width:40px;height:40px;border:2px dotted yellow;border-radius:100%;position:absolute;bottom:10px;top:700px;right:560px")
+           dummy.appendChild(image5)
+            var edu=document.createElement("div")
+            edu.innerText="Education"
+            edu.setAttribute("style","font-size:30px;position:relative;bottom:730px;right:430px;color:grey")
+            dummy.appendChild(edu)
+            var eng=document.createElement("span")
+            eng.innerText="Engineering immersion program"
+            eng.setAttribute("style","font-size:20px;text-align:left;position:absolute;right:320px;bottom:10px;top:770px")
+            dummy.appendChild(eng)
+            bold.append(eng)
+            var chicago=document.createElement("span")
+            chicago.innerText="Thinkful,chicago ||"
+            chicago.setAttribute("style","font-size:15px;text-align:left;position:absolute;right:480px;bottom:10px;top:820px")
+            dummy.appendChild(chicago)
+            bold.append(chicago)
+
+           var date=document.createElement("span")
+           date.innerText="11/2018 - 06/2018"
+           date.setAttribute("style","font-size:18px;position:absolute;right:5%;bottom:1%;top:119%")
+           dummy.appendChild(date)
+           bold.append(date)
+
+           var order2=document.createElement("ul")
+           dummy.appendChild(order2)
+           var list6=document.createElement("li")
+           list6.innerText="Developed a full stack web application that allows the user to explore various aspects of meditaion.users progress is stored on backend created by using mongoDB and node"
+           list6.setAttribute("style","font-size:20px;position:relative;bottom:630px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list6)
+           var list7=document.createElement("li")
+           list7.innerText="Developed a language learning app foodie and phonetics using spaced repition and linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list7.setAttribute("style","font-size:20px;position:relative;bottom:600px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list7)
+           
+           var list8=document.createElement("li")
+           list8.innerText="Developed a conceirge app for individuals looking for suggestion for the places they visit linked list data structure.React was uesd to create front end components were mongoDB was used to create backend"
+           list8.setAttribute("style","font-size:20px;position:relative;bottom:560px;left:760px;width:40%;text-align:left !important")
+           order2.appendChild(list8)
+
+           var div=document.createElement("div")
+           div.innerText="BA English"
+           div.setAttribute("style","position:absolute;font-size:20px;text-align:left;left:60%;top:200% !important")
+           s.appendChild(div)
+           bold.append(div)
+           var div1=document.createElement("div")
+           div1.innerText="University of los angles,california"
+           div1.setAttribute("style","position:absolute;font-size:18px;text-align:left;left:60%;top:205% !important")
+           s.appendChild(div1)
+
+           var date1=document.createElement("span")
+           date1.innerText="09/2001 - 06/2002"
+           date1.setAttribute("style","font-size:18px;position:absolute;right:5%;;top:200%")
+           s.appendChild(date1)
+           bold.append(date1)
+        
+           </script>
+
+    </body>
+</html>
