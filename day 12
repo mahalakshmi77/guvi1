@@ -1,0 +1,145 @@
+//pagination
+
+<html>
+<head>
+    <title>Precedence</title>
+    
+</head>
+<style>.pagination{
+    display:inline-block;
+    margin-left:530px;
+    position:absolute;
+    top:700px;
+}
+
+.pagination a{
+    padding:8px 26px;
+    
+    border: 1px solid black;
+    background-color: lightskyblue;
+
+}
+
+.pagination a:hover{
+    background-color: midnightblue;
+    font-size: xx-large;
+    color:red;
+}
+</style>
+<body style="background-color: chocolate;border:2px solid black;border-width:thick;text-shadow: crimson;">
+  <div class="array" style="color:lime;font-size: 40px;text-align: center;margin-top: 30px;">
+      <div id="a"></div>
+      <div id="b"></div> <div id="c"></div>
+      <div id="d"></div>
+      <div id="e"></div>
+      <div id="f"></div>
+      <div id="g"></div>
+      <div id="h"></div>
+      <div id="i"></div>
+      <div id="j"></div>
+      <div id="k"></div>
+      <div id="l"></div>
+  </div>  
+
+    <div class="pagination">
+        <a id="1" onclick="first()">1</a>
+        <a id="2" onclick="second()">2</a>
+        <a id="3" onclick="third()">3</a>
+        <a id="4" onclick="fourth()">4</a>
+        <a id="5" onclick="fifth()">5</a>
+        <a id="6" onclick="sixth()">6</a>
+    </div>
+    <script>
+        function first() {
+        document.getElementById("a").textContent="id=id1"
+        document.getElementById("b").textContent="name=laura sendar"
+        document.getElementById("c").textContent="email=sander colliera@yahoo.com"
+        document.getElementById("d").textContent="id=id2"
+        document.getElementById("e").textContent="name=leena belly"
+        document.getElementById("f").textContent="email=leena@yahoo.com"
+        document.getElementById("g").textContent="id=id3"
+        document.getElementById("h").textContent="name=vladimir keling"
+        document.getElementById("i").textContent="email=sander colliera@yahoo.com"
+        document.getElementById("j").textContent="id=id4"
+        document.getElementById("k").textContent="name=laura sendar"
+        document.getElementById("l").textContent="email=sander colliera@yahoo.com"
+        }
+
+        function second() {
+        document.getElementById("a").textContent="id=id5"
+        document.getElementById("b").textContent="name=kellie corona"
+        document.getElementById("c").textContent="email=corona@yahoo.com"
+        document.getElementById("d").textContent="id=id6"
+        document.getElementById("e").textContent="name=caroline white"
+        document.getElementById("f").textContent="email=white@yahoo.com"
+        document.getElementById("g").textContent="id=id7"
+        document.getElementById("h").textContent="name=alfredo con"
+        document.getElementById("i").textContent="email=alfredo@hotmail.com"
+        document.getElementById("j").textContent="id=id8"
+        document.getElementById("k").textContent="name=stan sanahan"
+        document.getElementById("l").textContent="email=sanahan@yahoo.com"
+        }
+
+        function third() {
+        document.getElementById("a").textContent="id=id9"
+        document.getElementById("b").textContent="name=mervin fay"
+        document.getElementById("c").textContent="email=fay@hotmail.com"
+        document.getElementById("d").textContent="id=id10"
+        document.getElementById("e").textContent="name=torance rau"
+        document.getElementById("f").textContent="email=rau@yahoo.com"
+        document.getElementById("g").textContent="id=id11"
+        document.getElementById("h").textContent="name=haurald gutman md"
+        document.getElementById("i").textContent="email=haurald@yahoo.com"
+        document.getElementById("j").textContent="id=id12"
+        document.getElementById("k").textContent="name=taryan tropy"
+        document.getElementById("l").textContent="email=trophy@yahoo.com"
+        }
+
+        function fourth(){
+        document.getElementById("a").textContent="id=id13"
+        document.getElementById("b").textContent="name=bryan lan"
+        document.getElementById("c").textContent="email=fay@hotmail.com"
+        document.getElementById("d").textContent="id=id14"
+        document.getElementById("e").textContent="name=nyasiua gren"
+        document.getElementById("f").textContent="email=rau@yahoo.com"
+        document.getElementById("g").textContent="id=id15"
+        document.getElementById("h").textContent="name=nasir gero"
+        document.getElementById("i").textContent="email=haurald@yahoo.com"
+        document.getElementById("j").textContent="id=id16"
+        document.getElementById("k").textContent="name=ritchie phd"
+        document.getElementById("l").textContent="email=trophy@yahoo.com"
+        } 
+
+        function fifth () {
+        document.getElementById("a").textContent="id=id18"
+        document.getElementById("b").textContent="name=delmer"
+        document.getElementById("c").textContent="email=fay@hotmail.com"
+        document.getElementById("d").textContent="id=id19"
+        document.getElementById("e").textContent="name=rachien"
+        document.getElementById("f").textContent="email=rau@yahoo.com"
+        document.getElementById("g").textContent="id=id20"
+        document.getElementById("h").textContent="name=quentine 0'kon"
+        document.getElementById("i").textContent="email=haurald@yahoo.com"
+        document.getElementById("j").textContent="id=id21"
+        document.getElementById("k").textContent="name=broodie carter"
+        document.getElementById("l").textContent="email=trophy@yahoo.com"
+        }
+
+        function sixth() {
+        document.getElementById("a").textContent="id=id22"
+        document.getElementById("b").textContent="name=ludwig"
+        document.getElementById("c").textContent="email=fay@hotmail.com"
+        document.getElementById("d").textContent="id=id23"
+        document.getElementById("e").textContent="name=britiana"
+        document.getElementById("f").textContent="email=rau@yahoo.com"
+        document.getElementById("g").textContent="id=id24"
+        document.getElementById("h").textContent="name=corolan"
+        document.getElementById("i").textContent="email=haurald@yahoo.com"
+        document.getElementById("j").textContent="id=id25"
+        document.getElementById("k").textContent="name=nolan"
+        document.getElementById("l").textContent="email=trophy@yahoo.com"
+        }        
+</script>
+</body>
+
+</html>
