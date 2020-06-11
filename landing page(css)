@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>precedence</title>
+<link rel="stylesheet" href="style6.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@700&family=Great+Vibes&family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+<body style="background-color:black;;position:relative;right:20%;" >
+ <div>
+    <div class="black_color">
+     <p><span class="first">S</span>CROLLING THE WEB PAGE<br><span class="material-icons">
+        mouse
+        </span><br>
+         the long and short of it</p></div>
+     <div class="grey_color"><p style="font-size: x-larger;font-family: cinzel;padding:60px;text-align: justify;padding-top:10%;"><b><span class="font-size:100px"><span class="first">L</span>ONG SCROLL:<span style="font-size: small;">THE GOOD STUFF</span><br><span style="font-size: larger;">VISUAL CREATIVITY</span></b><br>
+      <span style="font-family: 'Cormorant Garamond', serif;text-align: justify;font-size: large;"> There’s more visual freedom in parallax website design. Rather than focusing on block style information architecture, you can create refreshing and engaging visuals such as animations or beautiful photography, that act as a continuum, ultimately inspiring users to scroll further down the page.</span>
+        </div> 
+    <div class="black1_color"><p style="font-size: x-larger;font-family: cinzel;padding-left:80px;color:white"><b><span class="first">S</span>TORY-TELLING OPPURTUNITY</b><br>
+        <span style="font-family: 'Cormorant Garamond', serif;padding:90px;color:white;font-size:large;"> Do you want to tell a story with your product or service? Long-scrolling lends itself well to a narrative and encourages meaningful interaction from users.</span>
+    </div>
+    <div class="light_pink"><p style="font-size:medium;font-family: cinzel;padding:60px;color:black;text-align: justify;"><b><span class="first">S</span>IMPLE INTERFACE FOR SMART DEVICE USERS</b><br>
+        <span style="font-family: 'Cormorant Garamond', serif;padding:90px;color:black;padding-top:10px"> Mobiles and tablets have evolved the way we engage in websites. It’s now less about clicking and more about scrolling, swiping and tapping. Long-scrolling websites take away the barrier of complex navigation, providing a responsive, user-friendly experience for mobile users.</span></div>
+    <div class="rose_color"><p style="font-size: medium;font-family: cinzel;padding:60px;color:black"><b style="text-transform: uppercase;"><span class="first">P</span>unchy, straight to the point messaging</b><br>
+        <span style="font-family: 'Cormorant Garamond', serif;padding:90px;color:black;padding-top:10px"> Parallax website design is a great solution for us time-poor website browsers, as forces businesses to convey their message and vision into one dynamic web design page.</span></div>
+    <div class="sky_blue"><p style="font-size: medium;font-family: cinzel;padding:60px;color:black"><b style="text-transform: uppercase;"><span class="first">E</span>asier for user to realise the goal</b><br>
+        <span style="font-family: 'Cormorant Garamond', serif;padding:90px;color:black;padding-top:10px;"> These days, scrolling is so simple that it’s become an instinctive action, whereas clicking through to another page requires thought and motivation. A single page website allows user to identify their purpose on the website quicker, than needing to sift through multiple pages.</span></p></div>
+    <div class="blue_color"><p style="font-size: medium;font-family: cinzel;padding:60px"><b><span class="first">L</span>ONG SCROLL:<span style="font-size: small;">THE NOT SUCH GOOD STUFF</span><br><span style="font-size: larger;text-transform:uppercase">You need to be search engine savvy</span></b><br>
+        <span style="font-family: 'Cormorant Garamond', serif;">One of the biggest problems that parallax websites face is that they are not SEO friendly. Why? When you limit the number of pages on your website, Google has fewer pages to index and negatively impacts your standing on the search engine results page (SERP). Luckily there are ways around this, which Moz explains in this article.</span></div>
+    <div class="baby_pink"><p style="font-size: x-larger;font-family: cinzel;padding:60px;color:black"><b style="text-transform: uppercase;"><span class="first">S</span>lower load times</b><br>
+        <span style="font-family: 'Cormorant Garamond', serif;padding:90px;color:black;padding-top:10px;"> 50% of website users bounce off the page if it hasn’t loaded in 3-5 seconds. So the more high resolution imagery and animations you include, the longer it takes to load the page. When writing this article, iFactory Brisbane website designers tested some popular parallax websites, and found that the ones with complex visuals took up to 30 seconds to load on a mobile device, whereas simple and minimalist long-scroll websites loaded within a few seconds.</span></div>
+        
+    
+    <div class="mydiv" style="padding-top: 320px;">
+   <div style="text-align=left">As one of Brisbane's<br> leading full service digital<br> and creative
+        agencies, iFactory will<br> help you achieve a digital <br>solution that
+        blends the needs <br>of your business with <br>that of your target
+        audience.<br> Our eclectic mix of <br>digital designers, web developers
+        and digital<br> marketing specialists come<br> together for one
+        purpose – to provide<br> intelligent digital solutions<br> based on your
+        business needs</div>
+        <div style="text-align:right;padding-left:530px;padding-bottom:50%;padding-right:50px"> 
+        <b>iFactory</b>
+        </div>
+    </div>
+    <div class="whitecolor">
+        <div style="text-align: left;padding-top:60px">
+        <b>august 2019</b>
+        </div>
+        <div style="text-align: right;padding-right:40px">
+            www.iFactory.org/in
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
