@@ -1,0 +1,79 @@
+//iterating nested array using callback function
+const input = [
+  {
+    name: "person 1",
+    age: 50,
+    childrens: [
+      {
+        name: "person 3",
+        age: 50,
+        childrens: [
+          {
+            name: "person 7",
+            age: 50,
+            childrens: [],
+          },
+        ],
+      },
+      {
+        name: "person 4",
+        age: 50,
+        childrens: [
+          {
+            name: "person 8",
+            age: 50,
+            childrens: [
+              {
+                name: "person 10",
+                age: 50,
+                childrens: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "person 5",
+        age: 50,
+        childrens: [
+          {
+            name: "person 9",
+            age: 50,
+            childrens: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "person 2",
+    age: 50,
+    childrens: [
+      {
+        name: "person 6",
+        age: 50,
+        childrens: [],
+      },
+    ],
+  },
+];
+//output
+
+
+function wrapper(callback){
+var result = (input,output=[]) => input.reduce((accum,value) => {
+	const {childrens,...rest}= value;
+	//console.log(accum)
+	if(childrens.length){ 
+	return result(childrens,accum.concat([rest]))
+		
+	};
+	return accum.concat([rest])}
+	,output)
+var finalResult = callback(result(input));
+//console.log(finalResult);
+}
+function showresult(r){
+    console.log(r)
+}
+wrapper(showresult)
