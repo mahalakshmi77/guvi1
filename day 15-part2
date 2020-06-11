@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="phone.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body style="background-color: cornsilk;width:60%">
+      <div style="background-color:whitesmoke;width:160%;position:relative;left:5%;height:250%;box-shadow:0px 0px 20px -10px;top:10px">
+      <div class=".container">
+        <div class="row">
+          <!--header-->
+          <div class="col-3" id="c1">
+            <img src="http://getbootstrap.com/docs/4.3/assets/brand/bootstrap-social.png" style="margin-right: 450px;margin-top: 15px;width:50px;height:50px"> <div style="font-size: smaller;text-align: right;margin-right:10px;margin-left:60px;position:relative;bottom:60px;padding:5px">The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty</div>
+           <span style="font-size:xx-small;right:243px;bottom:67px;position:relative;">guvi geeks<br> private limited</span>
+           </div>
+           <div><h1 style="font-size:80px;margin-left:380px;margin-top:20px;position:relative;bottom:130px"><b>The Rising Sun</b></h1><span style="font-size:15px;margin-left:450px;margin-top:20px;position:relative;bottom:145px">I'm selfish, impatient and a little insecure</span></div>
+           <div class="col-3" id="c2">
+            <img src="http://getbootstrap.com/docs/4.3/assets/brand/bootstrap-social.png" style="margin-right: 450px;margin-top: 15px;width:50px;height:50px"> <div style="font-size: smaller;text-align: right;margin-right:10px;margin-left:60px;position:relative;bottom:60px;padding:5px">The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty</div>
+           <span style="font-size:xx-small;right:243px;bottom:67px;position:relative;">guvi geeks<br> private limited</span>
+           </div></div>
+           <hr style="background-color:black;width:98%;position:relative;bottom:240px;margin-top:3px">
+           <span style="font-family: monospace;font-size: larger;position:relative;bottom:240px;left:530px">saturday may 06 2020</span>
+           <hr style="background-color:black;width:98%;position:relative;bottom:240px;">
+          </div> 
+          <div id="left">
+            <div class="row">
+              <div class="col">
+                <h2 style="font-size: 50px;">ELECTRIC CARS:THE FUTURE OF TRANSPORTATION</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Car2Go_Stuttgart_2012-12-05_trimmed.jpeg" style="width:800px;height:300px;margin-left:10px">
+                <div class="lead font-weight-normal" style="font-size:small;padding:10px;">An electric car is an automobile that is propelled by one or more electric motors, using energy stored in rechargeable batteries. The first practical electric cars were produced in the 1880s.[1] Electric cars were popular in the late 19th century and early 20th century, until advances in internal combustion engines, electric starters in particular, and mass production of cheaper petrol (gasoline) and diesel vehicles led to a decline in the use of electric drive vehicles.<br>
+                  <br>From 2008, a renaissance in electric vehicle manufacturing occurred due to advances in batteries, and the desire to reduce greenhouse gas emissions and improve urban air quality.[2] Several national and local governments have established government incentives for plug-in electric vehicles, tax credits, subsidies, and other incentives to promote the introduction and adoption in the mass market of new electric vehicles, often depending on battery size, their electric range and purchase price. The current maximum tax credit allowed by the US Government is US$7,500 per car.</div>
+                  <hr style="background-color: black;">
+                  <div class="row">
+                    
+                    <div class="col-6">
+                      <span style="font-size: 20px;margin-left:14px;position:relative;bottom:30px"><b>wonders of the world</b></span>
+                      <span  style="font-size: 15px;position:absolute;bottom:70px;right:138px" ><b>THE LARGEST STATUE OF THE WORLD</b></span>
+                      <img src="https://markosun.files.wordpress.com/2013/08/astat10.jpg" style="width:70px;height:70px;position:relative;right:200px;top:40px"><div  id="c3"> This list of tallest statues includes completed statues that are at least 30 m (98 ft) tall,</div>
+                    </div>
+                    <div class="col-6">
+                     
+                      <span  style="font-size: 15px;position:absolute;bottom:60px;right:207px" ><b>WORLDS FIRST LANGUAGE</b></span>
+                      <img src="http://mymodernmet.com/wp/wp-content/uploads/2017/08/most-common-languages.png" style="width:70px;height:70px;position:relative;left:25px;top:50px"><div  id="c3" style="position:relative;bottom:20px"> This list of tallest statues includes completed statues that are at least 30 m (98 ft) tall,</div>
+                    </div>
+                 
+                  </div>
+              
+                  <div class="row">
+                    
+                    <div class="col-6">
+                      <span  style="font-size: 15px;position:absolute;bottom:30px;right:5px;left:30px" ><b>ELECTRONICS CARS ARE THE FUTURE TRANSPORTATION</b></span>
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Electric_Car_recharging.jpg/1200px-Electric_Car_recharging.jpg"style="width:70px;height:70px;position:relative;right:5px;top:90px;left:13px" ><div  id="c3" style="position:relative;top:20px"> This list of tallest statues includes completed statues that are at least 30 m (98 ft) tall,</div>
+                    </div>
+                    <div class="col-6">
+                     
+                      <span  style="font-size: 15px;position:absolute;bottom:30px;right:234px" ><b>SUCIDE BOMB ATTACK</b></span>
+                      <img src="https://th.bing.com/th/id/OIP.DAdUA07SF1c4Ro38dMOvAQHaE7?pid=Api&rs=1" style="width:70px;height:70px;position:relative;left:25px;top:90px"><div  id="c3"  style="position:relative;bottom:1px;top:20px"> This list of tallest statues includes completed statues that are at least 30 m (98 ft) tall,</div>
+                    </div>
+                 
+                  </div>
+                  <hr style="background-color:black;margin-top:80px">
+                  <div class="row">
+                      <div class="col-12">
+                        <span  style="font-size: 15px;position:absolute;bottom:130px;right:3px;left:30px" ><b>TEN BOOKS TO CHECK OUT THIS TIME</b></span>
+                        <img src="https://th.bing.com/th/id/OIP.m2WiLuR3lVSrz5_zsLafXAHaDt?pid=Api&rs=1" style="width:70px;height:70px;position:relative;left:18px;top:30px" ><div  id="c3" style="position:relative;bottom:50px"> The Amazon.in Books Store offers you millions of titles across categories like Children’s Books, Free eBooks, Audiobooks, Business & Economics, and Literature & Fiction. Read user reviews, check out new & upcoming book releases in literature & fiction, business & economics, computing & digital media, children books, biographies and more from Amazon India.<br>
+                          Bootstrap is a free and open-source CSS framework directed at responsive, 
+                         
+                          </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div id="right">
+          <span style="font-size: 16px;"><b>POLITICS</b></span>
+          <div class="row"><img src="https://th.bing.com/th/id/OIP.S1Uo-_i69UrrKx-HH0_zpQHaFS?pid=Api&rs=1" style="width:400px;height:300px;position:relative;left:12px"></div>
+          <div class="row" style="position:relative;left:12px;font-size:33px;top:10px"><b>A CHINESE COMPANY TO BUILD A FAKE MOON TO REPLACE A CITY</b></div>
+          <div class="row" style="position:relative;left:15px;font-size:13px;top:10px;width:100%">The flag of the United States of America, often referred to as the American flag or U.S. flag, is the national flag of the United States. It consists of thirteen equal horizontal stripes of red (top and bottom) alternating with white, with a blue rectangle in the canton (referred to specifically as the "union") bearing fifty small, white, five-pointed stars arranged in nine offset horizontal rows, where rows of six stars (top and bottom) alternate with rows of five stars. The 50 stars on the flag represent the 50 states of the United States of America, and the 13 stripes represent the thirteen</div>
+          <br>
+          <div class="row" style="position:relative;left:15px;font-size:13px;top:10px;width:100%">The current design of the U.S. flag is its 27th; the design of the flag has been modified officially 26 times since 1777. The 48-star flag was in effect for 47 years until the 49-star version became official on July 4, 1959. The 50-star flag was ordered by then president Eisenhower on August 21, 1959, and was adopted in July 1960. It is the longest-used version of the U.S. flag and has been in use for over 59 years</div>
+        <div class="container" style="border:2px solid black;border-radius: 10px;margin:20px;position:relative;right:18px;top:5px;height:500px">
+          <div class="row" style="position:relative;font-size:18px;top:20px;padding:0px 5px 0px 5px"><b>PLANE CRUSHES IN INDONESIA</b>
+          <div class="row" style="position:relative;margin-right:4px;font-size:13px;top:10px;padding-left:20px" >    An aviation accident is defined by the Convention on International Civil Aviation Annex 13 as an occurrence associated with the operation of an aircraft, which takes place from the time any person boards the aircraft with the intention of flight until all such persons have disembarked, and in</div>  
+          <div class="row" style="position:relative;font-size:18px;top:20px;padding:0px 5px 0px 5px;left:15px"><b>PLANE CRUSHES IN INDONESIA</b>
+            <div class="row" style="position:relative;margin-right:4px;font-size:13px;top:10px;padding-left:20px;width:99%" >    An aviation accident is defined by the Convention on International Civil Aviation Annex 13 as an occurrence associated with the operation of an aircraft, which takes place from the time any person boards the aircraft with the intention of flight until all such persons have disembarked, and in</div>  
+            <div class="row" style="position:relative;font-size:18px;top:20px;padding:0px 5px 0px 5px;left:12px"><b>PLANE CRUSHES IN INDONESIA</b>
+              <div class="row" style="position:relative;margin-right:4px;font-size:13px;top:10px;padding-left:20px;width:95%" >    An aviation accident is defined by the Convention on International Civil Aviation Annex 13 as an occurrence associated with the operation of an aircraft, which takes place from the time any person boards the aircraft with the intention of flight until all such persons have disembarked, and in</div>  
+      
+
+          </div>
+        </div>
+      
+        </div>
+     
+
+          </div>
+          </div>
+          <footer style="background-color: black;width:154%;height:3%;margin-right:130px;position:relative;bottom:980px;right:23px">
+            <div class="row">
+            <div class="col-12" style="color:white;font-size: larger;"> www.risingsun.com</div></div>
+            </footer>
+        </div>
+      
+    </body>
+  </head>
+</html>
+
+***********css*****************
+#c1{
+    background-color: cornsilk;
+    width:40px;
+    height:120px;
+     bottom:14px;
+    top:4px;
+    text-align:right;
+    border:0.2px solid black;
+    border-radius: 5px;
+    box-shadow: -10px;
+    margin-right:550px;
+    left:20px;
+    position:relative;
+}
+#c2{
+    background-color: cornsilk;
+    width:40px;
+    height:120px;
+    left:100px;
+    bottom:260px;
+    text-align:right;
+    border:0.2px solid black;
+    border-radius: 5px;
+    box-shadow: -10px;
+    margin-left:870px;
+    position:relative;
+    
+}
+#left{
+    margin:20px;
+    width:65%;
+    height:84%;
+    background-color:whitesmoke;
+    position:relative;
+    bottom:253px;
+}
+
+#c3{
+    font-size: 13px;
+    margin-left:100px;
+    position:relative;
+    bottom:20px;
+     
+ }
+ #c4{
+    font-size: medium;
+    margin-right:100px;
+    position:relative;
+    bottom:30px;
+     
+ }
+ #right{
+    margin:20px;
+    width:49%;
+    height:88%;
+    background-color:whitesmoke;
+    position:relative;
+    bottom:1150px;
+    left:99%;
+}
