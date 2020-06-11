@@ -1,0 +1,426 @@
+//array method
+//forEach (iterates and print each elements in an array )
+function foreach(array,callback) {
+    for(var i=0;i<=array.length;i++)
+    {
+        callback(array[i])
+    }
+}
+function result(r) {
+    console.log(r)
+}
+foreach([1,2,3,4,5,6,7],result)
+//--------------------------------------------------------------------------------------//
+//some (returns true if one or two element in an array satisfies the condition)
+function some(array,callback) {
+    var count=0;
+    for(var i=0;i<=array.length;i++)
+    {
+        if(array[i]%2===0)
+        {
+            count ++
+        }
+    }
+     if((count <=(array.length)/2) | (count >=(array.length)/2))
+     callback(count)
+}
+function result(r){
+    if(r){
+    console.log("true")
+    }
+    else if(r===0){
+        console.log("false")
+    }
+}
+some([1,3,5,7,9],result)
+//-------------------------------------------------------------------------------------------//
+//every (returns true if every element in an array satisfies the condition)
+function every(array,callback) {
+    var count=0;
+    for(var i=0;i<=array.length;i++)
+    {
+        if(array[i]%2===0)
+        {
+            count ++
+        }
+    }
+     if(count === array.length){
+     callback(count)
+     }
+     else if(count !== array.length){
+    console.log("false")
+    }
+}
+function result(r){
+    if(r){
+    console.log("true")
+    }
+}
+every([1,3,5,7,9],result)
+//-------------------------------------------------------------------------------------------//
+//reduce (it will combine the strings and returns sum if it is a number)
+function reduce(array,callback) {
+    var count=0;
+    for(var i=0;i<array.length;i++){
+        count = count+array[i];
+    }
+        callback(count)
+}
+function result(r){
+    console.log(r)
+}
+reduce([2,3,4,5,6,7,8,9,10],result)
+//-------------------------------------------------------------------------------------------//
+//filter(filters the elements that satisfies the given condition) 
+function filter(array,callback){
+    for(var i=0;i<=array.length;i++){
+        if(array[i]%2===0){
+            callback(array[i])
+        }
+    }
+}
+function result(r) {
+    console.log(r)
+}
+filter([1,2,3,4,5,6,17,18,36,28,42,54],result)
+//-------------------------------------------------------------------------------------------//
+//find (returns the specify element)
+function find(array,callback){
+    for(var i=0;i<=array.length;i++){
+        if((array[i]===42) | (array[i]===36) | (array[i]===54)){
+            callback(array[i])
+        }
+    }
+}
+function result(r) {
+    console.log(r)
+}
+find([1,2,3,4,5,6,17,18,36,28,42,54],result)
+//-------------------------------------------------------------------------------------------//
+//concat (combine two string or number)
+function concat(string1,string2,callback) {
+    var result=string1 +"-" + string2;
+    callback(result)
+}
+function showResult(r){
+    console.log(r)
+}
+concat("hello","guvi",showResult)
+//-------------------------------------------------------------------------------------------//
+//push(insert an element to the last index of an array)
+function push(array,callback) {
+    var n=array.length;
+    for(var i=0;i<=array.length;i++)
+    
+    {   array[n]=12;
+        callback(array[i])
+    }
+}
+function result(r,array) {
+
+   console.log(r)
+}
+push([1,2,3,4,5,6,7],result)
+//-------------------------------------------------------------------------------------------//
+//pop (delets an element from the last index of an array)
+function pop(array,callback) {
+    for(var i=0;i<array.length-1;i++)
+    
+    {  
+        callback(array[i])
+    }
+}
+function result(r,array) {
+
+    console.log(r)
+}
+pop([1,2,3,4,5,6,7],result)
+//-------------------------------------------------------------------------------------------//
+//form 
+function form(array,callback) {
+    var count=0;
+    for(var i=0;i<array.length;i++){
+        count = count+array[i];
+        callback(count)
+    }
+}
+function result(r){
+    console.log(r)
+}
+form([2,3,4,5,6,7,8,23,42,54,67,78],result)
+//-------------------------------------------------------------------------------------------//
+//copy within (shallow copy)
+function copywithin(array,callback){
+    for(var i=0;i<=array.length;i++){
+        array[1]=array[7];
+        callback(array[i])
+    }
+}
+function result(r){
+    console.log(r)
+}
+copywithin([1,2,3,4,5,6,7,8,22,54],result)
+//-------------------------------------------------------------------------------------------//
+//arrayof (creating a new array)
+function arrayof(callback){
+    var result=[];
+    result[0]=1;
+    result[1]=2;
+    result[2]=3;
+    callback(result)
+}
+function showresult(r){
+    console.log(r)
+}
+arrayof(showresult)
+//-------------------------------------------------------------------------------------------//
+//fill (fills the specified index of an array)
+function fill(array,callback){
+  for(var i=0;i<=array.length;i++){
+      array[2]=0;
+      array[3]=0;
+      callback(array[i])
+  }
+ 
+}
+function result(r){
+    console.log(r)
+}
+fill([1,2,3,4],result)
+//-------------------------------------------------------------------------------------------//
+//join (like concat)
+function join(array,callback) {
+    var result=[array[0] +"," + array[1]];
+    callback(result)
+    
+}
+function showResult(r){
+    console.log(r)
+}
+join(["hello","guvi"],showResult)
+//-------------------------------------------------------------------------------------------//
+//keys (returns keys)
+function join(array,callback) {
+for(var i=0;i<=array.length;i++){
+    callback(i)
+} 
+}
+function showResult(r){
+    console.log(r)
+}
+join(["a","b","c","d","e","f","g","h"],showResult)
+//-------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------//
+
+//string methods
+//charAt (returns the element of the index)
+function char(items,callback){
+    items.forEach((item)=>{
+        callback(item)
+    });
+}
+function result(r){
+    console.log(r[3])
+}
+char(["hello guvi"],result)
+
+//--------------------------------------------------------------------------------------------//
+//concat
+function concat(items,callback){
+  var s=  items.reduce((a,v)=>a+v);
+  callback(s)
+}
+function result(r){
+    console.log(r)
+}
+concat(["hello","guvi"],result)
+//--------------------------------------------------------------------------------------------//
+//endswith (checking the last index of an array)
+function endswith(string,callback){
+    var array=string.split(" ");
+    var n=array.length;
+    callback(array[n-1])
+}
+function result(r){
+    if(r==="day"){
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+}
+endswith("it is a good day",result)
+
+//---------------------------------------------------------------------------------------------//
+//repeate (looping)
+function repeat(callback){
+    var a="i am happy"
+    for(var i=0;i<=23;i++){
+        callback(a)
+    }
+}
+function result(r){
+    console.log(r)
+}
+repeat(result)
+//---------------------------------------------------------------------------------------------//
+//replace (replacing element in an array)
+function replace(string,callback){
+    var a=string.split(" ");
+    for(var i=0;i<=a.length;i++){
+        if(a[i]==="dogs"){
+            a[i]="innocents"
+        }
+    }
+    callback(a)
+}
+function result(r){
+    var b=r.join(" ");
+    console.log(b)
+}
+replace("dogs are good",result)
+
+
+//---------------------------------------------------------------------------------------------//
+//replace all (replace the same element occuring in differnt index)
+function replaceall(string,callback){
+    var a=string.split(" ");
+    for(var i=0;i<=a.length;i++){
+        if(a[i]==="dogs"){
+            a[i]="innocents"
+        }
+    }
+    callback(a)
+}
+function result(r){
+    var b=r.join(" ");
+    console.log(b)
+}
+replaceall("dogs are good",result)
+//---------------------------------------------------------------------------------------------//
+//slice (delete or remove)
+function slice(string,callback){
+    var a=string.split(" ");
+    for(var i=6;i<=a.length;i++){
+    callback(a[i])
+    }
+}
+function result(r){
+
+    console.log(r)
+}
+slice("The quick brown fox jumps over the lazy dog.",result)
+
+//---------------------------------------------------------------------------------------------//
+//split (splitting sentence into words or letters)
+function split(items,callback){
+    items.forEach((item)=>{
+        callback(item[2])
+    })
+}
+function result(r){
+    console.log(r)
+}
+split(["The quick brown fox", "jumps over the lazy dog"],result)
+//----------------------------------------------------------------------------------------------//
+//starts with (checking the starting index)
+function startswith(string,callback){
+    var array=string.split(" ");
+    var n=array.length;
+    callback(array[0])
+}
+function result(r){
+    if(r==="it"){
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+}
+startswith("it is a good day",result)
+//---------------------------------------------------------------------------------------------//
+//to string (object to string)
+function tostring(string,callback){
+ 
+ const stringObj =  String('foo');   
+callback(stringObj)
+}
+function result(r){
+    console.log(r)
+}
+tostring({"foo":1},result)
+//---------------------------------------------------------------------------------------------//
+//to value (prints value of the value)
+function tovalue(string,callback){
+ 
+ const stringObj =  String('foo');   
+callback(stringObj)
+}
+function result(r){
+    console.log(r)
+}
+tovalue({"foo":1},result)
+//----------------------------------------------------------------------------------------------//
+//raw
+function raw(callback){
+    const filePath = `C:\Development\profile\aboutme.html`;
+
+callback(`The file was uploaded from: "${filePath}"`);
+    
+}
+function result(r){
+    console.log(r)
+}
+raw(result)
+//---------------------------------------------------------------------------------------------//
+//trim(removing white spaces from the ends)
+function trim(callback){
+    var a=" hello "
+    if((a[0]===" ") && (a[6]===" "))
+    {
+        callback("hello")
+    }
+    else
+    {
+        console.log(a)
+    }
+}
+function result(r){
+    console.log("trimmed at bothh ends" +" "+ r)
+}
+trim(result)
+//----------------------------------------------------------------------------------------------//
+//trim start(removing white spaces from the first)
+function trimstart(callback){
+    var a=" hello"
+    if((a[0]===" "))
+    {
+        callback("hello")
+    }
+    else
+    {
+        console.log(a)
+    }
+}
+function result(r){
+    console.log("trimmed at start" +" "+ r)
+}
+trimstart(result)
+//----------------------------------------------------------------------------------------------//
+//trim end (removing white spaces from the last)
+function trimsend(callback){
+    var a="hello "
+    if((a[5]===" "))
+    {
+        callback("hello")
+    }
+    else
+    {
+        console.log(a)
+    }
+}
+function result(r){
+    console.log("trimmed at start" +" "+ r)
+}
+trimsend(result)
