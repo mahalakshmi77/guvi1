@@ -1,0 +1,240 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="boot.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>news2</title>
+    <body class="container-fluid" id="one">
+    
+      <div class="container-left"id="two">
+        <span style="font-size: 9px;"><b>25lorem ipsum 23/234/34</b></span>
+        <span style="font-size: 9px;margin-left:406px"><b>lorem ipsum dolor sit amet</b></span>
+          <div class="row">
+            <div class="col"><hr style="background-color:black;margin-top:5px"><span style="font-size:12px;color:black"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elitad minim veniam, quis nostrud ullamco laboris nisi ut.</b></span> 
+              <hr style="background-color:black">
+            </div><br>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span style="font-size: 60px;margin-left:12px;position:relative;bottom:30px;"><b>NEWS DAILY WEEKLY</b></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <span class="badge badge-pill badge-danger" style="border-radius: 0;position:relative;bottom:45px;width:77px;height:18px;clip-path:polygon(0 0,73px 0,77px 18px,0 18px)">Today 01</span>
+                  <span id="bold" style="margin-left:4px"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</b></span>
+                  <div id="strong" style="position:relative;top:40px; "class="justify-text-arround">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                  <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:relative;left:600px;z-index:1;bottom:45px !important">Page<br>25</span>
+                  <div id="shape" style="position:relative;left:220px;bottom:225px;width:420px"><blockquote class="blockquote text-right" style="font-size: smaller;color:white;">
+                    <p class="mb-0" style="position:relative;top:180px;margin-left: 130px;right:5px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></blockquote></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <div id="shape" style="position:relative;right:290px;bottom:125px;width:150px;height:!50px"></div>
+                </div>
+              </div>
+      
+          <div class="row">
+            <div class="col-4">
+              <span class="badge badge-pill badge-danger" style="border-radius: 0;position:relative;bottom:455px;z-index:1;left:1px;;width:77px;height:18px;clip-path:polygon(0 0,73px 0,77px 18px,0 18px)">25 12 34</span>
+              <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:relative;right:1030px;z-index:1;bottom:340px;left:80px !important">Page<br>29</span>
+              <div id="shape" style="position:relative;right:40px;left:1px;bottom:475px;width:200px;height:150px">
+            </div>
+            <div style="position:relative;bottom:468px"><b>Lorem ipsum Amet</b></div>
+            <div id="strong" style="position:relative;bottom:467px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+              <br>
+            </div>
+            
+
+          </div>
+          <div class="col-4">
+            <span class="badge badge-pill badge-danger" style="border-radius: 0;position:relative;bottom:450px;z-index:1;left:1px;;width:77px;height:18px;clip-path:polygon(0 0,73px 0,77px 18px,0 18px)">25 12 34</span>
+            <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:relative;right:10px;z-index:1;bottom:340px;left:80px !important">Page<br>27</span>
+            <div id="shape" style="position:relative;right:40px;left:1px;bottom:475px;width:200px;height:150px">
+          </div>
+          <div style="position:relative;bottom:468px"><b>Lorem ipsum Amet</b></div>
+          <div id="strong" style="position:relative;bottom:467px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+            <hr style="background-color:black;width:100%;position:relative;bottom:12px"><div style="position:relative;bottom:26px;font-size: 15px;color:darkred;text-align:center;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut enim ad minim veniam</div>
+          </div>
+        </div>
+        <div class="col-4" style="margin-right:1px;margin-left:440px;position:absolute;left:20px;">
+          <span class="badge badge-pill badge-danger" style="border-radius: 0;position:relative;bottom:450px;z-index:1;left:1px;;width:77px;height:18px;clip-path:polygon(0 0,73px 0,77px 18px,0 18px)">25 12 34</span>
+          <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:relative;right:1030px;z-index:1;bottom:340px;left:80px !important">Page<br>26</span>
+          <div id="shape" style="position:relative;right:40px;left:1px;bottom:475px;width:200px;height:150px">
+        </div>
+        <div style="position:relative;bottom:468px;"><b>Lorem ipsum Amet</b></div>
+        <div id="strong" style="position:relative;bottom:467px;width:47%">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+          <br>
+        </div>
+        <footer>
+       <hr style="background-color: black;position:relative;right:435px;width:150%;bottom:470px">
+       <span class="text-left" style="position:relative;right:430px;bottom:470px;font-size: x-small;"> <b>25lorem ipsum 254/34/52</b></span>
+       <span class="text-right" style="position:absolute;left:80px;bottom:1590px;font-size: x-small;"> <b>25lorem ipsum doretum</b></span>
+      </footer>
+      <div >
+      <div class="container" id="three">
+        <span style="font-size: 9px;position:relative;top:9px"><b>25lorem ipsum 23/234/34</b></span>
+        <span style="font-size: 9px;margin-left:365px;position:relative;top:9px"><b>lorem ipsum dolor sit amet</b></span>
+        <div class="row">
+          <div class="col"><hr style="background-color:black;margin-top:15px"><span style="font-size:11.5px;color:black"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elitad minim veniam, quis nostrud ullamco laboris nisi ut.</b></span> 
+            <hr style="background-color:black">
+          </div><br>
+            </div>
+    </div>
+  <div class="row">
+    <div class="col-12" style="font-size: 15px;position:relative;bottom:2338px;left:240px;color:black">
+     <b>Lorem ipsum, or lipsum as it is sometimes known, is dummy text  used in laying out print, graphic or web.
+    </b></div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <p></p>
+    </div>
+  </div>
+  <div id="strong" style="position:absolute;bottom:2030px;width:35%;left:255px">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+    <br>
+  </div>
+</div>  
+    <div class="row">
+      <div class="col-4">
+        <p></p>
+      </div>
+    </div>
+    <div id="strong" style="position:absolute;bottom:2030px;width:35%;left:460px">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+      <br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+      <br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>
+      <br>
+    </div>
+      <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:relative;right:100px;z-index:1;bottom:2115px;left:790px !important">Page<br>25</span>
+     </div>
+    <div id="shape" style="position:relative;left:640px;bottom:795px;width:200px;height:400px"><blockquote class="blockquote text-right" style="font-size: smaller;color:white;">
+      <p class="mb-0" style="position:absolute;top:330px;margin-left: 20px;right:5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></blockquote></div>
+  <hr style="background-color: black;width:90%;position:relative;left:656px;bottom:880px">
+  <div class="row">
+    <div class="col-12">
+      <b  style="color: black;width:50%;position:relative;left:680px;bottom:880px;margin-left:10px;width:60%;text-align: left;">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying<div>print, graphic or web</b></div></b>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+   <div style="position:relative;bottom:870px;left:690px;margin-right:350px;font-size:10px;width:32%;text-align: justify;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.The passage is attributed to an unknown typesetter in the 15th century.
+        The passage is attributed to an unknown typesetter in the 15th century,
+      </div>
+      
+      <div id="shape" class="col-8" style="width:1800px;height:150px;position:relative;bottom:990px;left:900px">  
+       
+      
+    </div>
+    <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:absolute;right:100px;z-index:1;bottom:1010px;left:1265px !important">Page<br>25</span>
+    <span class="badge badge-pill badge-danger" style="border-radius: 0;position:relative;bottom:1150px;z-index:1;left:900px;;width:77px;height:18px;clip-path:polygon(0 0,73px 0,77px 18px,0 18px)">25 12 34</span> 
+  </div>
+  </div>
+  <hr style="background-color: black;position:absolute;left:710px;width:600px;bottom:480px;top:750px">
+  <div class="row">
+    <div class="col-12" style="position:absolute;left:695px;bottom:60px;top:780px;width:47%;color:black">
+      <b>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </b>
+    </div>
+  </div>
+  <span class="badge badge-pill badge-danger" style="border-radius: 0;position:absolute;top:838px;z-index:1;left:710px;width:77px;height:18px;clip-path:polygon(0 0,73px 0,77px 18px,0 18px)">Today 04</span>
+  <div class="row">
+    <div class="col-4">
+<span style="font-size:10px;position:relative;bottom:880px;left:720px;width:32%;text-align: justify;">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out.</span>
+    </div>
+    <div class="col-4">
+      <hr style="background-color:black;width:100%;position:relative;bottom:922px;left:702px"><div style="position:relative;bottom:936px;left:703px;font-size: 15px;color:darkred;text-align:center;"> Lorem ipsum dolor sit amet, consectetur  </div>
+      <hr style="background-color:black;width:100%;position:relative;bottom:948px;left:702px">
+      <span style="font-size: 12px;position:relative;bottom:960px;left:728px;">Lorem ipsum dolor sit amet,</span>
+    </div></div>
+    <div class="col-4">
+    
+      <span class="badge badge-pill badge-dark" style="border-radius: 100%;height:30px;width:30px;font-size:7px;position:relative;right:100px;z-index:1;bottom:995px;left:1234px !important">Page<br>25</span>
+      <div id="shape" class="col-8" style="width:740px;height:100px;position:relative;bottom:1090px;left:1140px; !important">
+        <span style="color:white;font-size: 12px;position:absolute;top:50px;left:5px">Lorem ipsum dolor sit amet</span></div>
+     
+  </div>
+  <footer>
+   <hr style="width:45%;background-color: black;position:absolute;bottom:97px;top:912.5px;left:710px">
+  
+   <span style="text-align:right;font-size:10px;position:relative;bottom:935px;left:470px"><b>25lorem ipsum 254/24/67</b></span>
+   <span style="text-align:left;font-size:10px;position:relative;bottom:935px;left:820px"><b>25lorem ipsum doremtum</b></span>
+  </footer>
+ </div>
+    </body>
+  </head>
+</html>
+
+********css********
+#one{
+background-color:lightgrey;
+width:100%;
+height:100%;
+
+}
+
+#two{
+    background-color: whitesmoke;
+    border:1px solid black;
+    box-shadow:0 0 0 -20px;
+    width:50%;
+    height:150%;
+    margin:10px;
+    padding:10px;
+}
+#three{
+    background-color: whitesmoke;
+    border:1px solid black;
+    box-shadow:0 0 0 -20px;
+    width:150%;
+    height:980px;
+    margin:17px;
+    position:relative;
+    left:200px;
+    bottom:1440px;
+}
+#bold{
+    font-size: 15px;
+    text-align: left;
+    position:absolute;
+    bottom:400px;
+    left:10px;
+}
+#strong{
+    font-size: x-small;
+    text-align: justify;
+}
+
+#shape{
+    width:350px;
+    height:250px;
+    background-color: grey;
