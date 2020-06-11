@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<title>precedence</title>
+<link rel="stylesheet" href="style.css">
+<form background-color="pink">
+    <table border="1" cellpadding="0" cellspacing="0" width="100%">
+        <p class="color">
+            REQUEST FOR NEW PAN CARD OR CHANGES IN PAN DATA<br><i>fields marked with * are important</i>
+        </p>
+        <tr>
+             <td ><b>* whether citizen of india:</b>
+            </td>
+            <td>
+                <input type="radio" name="choice" id="yes">yes
+                <input type="radio" name="choice" id="no">no
+            </td>
+        </tr>
+        <tr>
+            <td><b>* Permanent Account Number (PAN)</b>
+               <input type="text">
+            </td>
+       </tr>
+       <tr>
+        <td><b>title</b></td>
+        <td colspan="3">
+           Shri/Mr
+           <input type="radio" value="1">
+           Smt./Mrs.
+           <input type="radio" value="2">
+           Kumari/Ms
+           <input type="radio" value="3">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+         <table width="100%" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+           <td><b>Last Name/Surname</b><br><input type="text"></td>
+           <td><b>First Name</b><br><input type="text"></td>
+           <td><b>Middle Name</b><br><input type="text"></td>
+         </tr>
+        </tbody></table>
+       </td>
+      </tr>
+       <tr>
+        <td colspan="2">
+           <b>*</b><b> Name as you would like it printed on the card</b>(Prefix like Shri, Smt, Kumari, Late,
+               Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+           <input type="text" >
+        </td>
+      </tr>
+        <tr><td><b>whether your mother is a single parent and you wish to apply pan by furnishing your mother name only</b></td>
+            <td>
+                <input type="radio">yes
+                <input type="radio">no
+            </td>
+        </tr>
+        <tr><td><b>*fathers name<span class="blue_color">(even married women should give their father's name only)</span></b></td></tr>
+        <tr>
+            <td colspan="2">
+             <table width="100%" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+               <td><b>Last Name/Surname</b><br><input type="text"></td>
+               <td><b>First Name</b><br><input type="text"></td>
+               <td><b>Middle Name</b><br><input type="text"></td>
+             </tr>
+            </tbody></table>
+           </td>
+          </tr>
+        <tr><td><span class="blue_color"> mothers name(this feild is optional)</span></td></tr>
+        <tr>
+            <td colspan="2">
+             <table width="100%" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+               <td><b>Last Name/Surname</b><br><input type="text">
+               </td><td><b>First Name</b><br><input type="text"></td>
+               <td><b>Middle Name</b><br><input type="text"></td>
+             </tr>
+            </tbody></table>
+           </td>
+          </tr>
+        <tr>
+            <td><input type="checkbox"><b>*5.date of birth/incorporation/agreement policy/trust deed<br>or formation of body of individual</b></td>
+            <td><table cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr>
+                 <td>DD<br>
+                      <select>
+                        <option>DD</option>
+                        <option>02</option>
+                      </select>
+                 </td>
+                 <td>MM<br>
+                      <select>
+                        <option> MM</option>
+                        <option> 02</option>
+                      </select>
+                 </td>
+                 <td>YYYY<br>
+                      <input type="text" maxlength="4">
+                 </td>
+                </tr>
+                </tbody></table>
+              </td>
+             </tr>
+             
+           
+        <tr><td><input type="checkbox">*6.gender</td>
+        <td><input type="radio" >male
+        <input type="radio">female
+        <input type="radio">transgender</td>
+        </tr>
+        <tr>
+            <td>7.photo mismatch</td>
+        </tr>
+        <tr><td>7.signature mismatch</td></tr>
+        <tr><td>8.communication address</td>
+            <td><input type="radio">residential
+            <input type="radio">office</td>
+        </tr>
+        <tr><td><b>office name<span class="black_color">(in case of office address)</span></b></td></tr>
+        <tr><td><b>door no/block no</b></td>
+        <td><input type="text"></td></tr>
+        <tr><td><b>name of permises</b></td>
+            <td><input type="text"></td></tr>
+            <tr><td><b>street</b></td>
+                <td><input type="text"></td></tr>
+            <tr><td><b>area/locality</b></td>
+                <td><input type="text"></td></tr>
+                <tr><td><b>town</b></td>
+                    <td><input type="text"></td></tr>
+                    <tr><td><b>state</b></td>
+                        <td>
+                            <select>
+                              <option>-- Please Select --</option>
+                              <option> India</option>
+                            </select>
+                          </td>
+                        <tr><td><b>PIN</b><i>(indicating pin is mandatory)</i></td>
+                        <td><input type="text"></td>
+                        </tr>
+                        <tr><td><b>country</b></td><td><select>
+                            <option>-- Please Select --</option>
+                            <option></option>
+                          </select></td></tr>
+                        <tr><td><b>zip</b></td><td><select>
+                            <option>-- Please Select --</option>
+                            <option></option>
+                          </select></td></tr>
+                        <tr><td><b>10.if you desire to update your adress submit thr proof</b></td><td><select>
+                            <option>-- Please Select --</option>
+                            <option></option>
+                          </select></td></tr>
+                        <tr><td><b>11.telephone no.<br>(country code is compulsory)</b></td><td><select>
+                            <option>-- Please Select --</option>
+                            <option></option>
+                          </select><input type="number"></td></tr>
+                        <tr><td><b>Email-id</b></td>
+                        <td><input type="text"></td>
+                        </tr>
+                        <tr><td>in case of citizen of india then</td>
+                        <td><input type="radio">AADHAAR <input type="radio">EID</td>
+                        </tr>
+                        <tr><td><b>12.adhaar no.</b></td>
+                        <td><input type="text"><span class="blue_color">in case adhaar no is provided sumbit necessary document to NSDL</span></td>   
+                      </tr>
+                      <tr><td><b>name as per the adhar letter or as per the enrollment id of adhar application form</b></td>
+                    <td><input type="text"></td>
+                    </tr>
+                    <tr><td><b>GSTN</b></td>
+                    <td><input type="text"></td>
+                    </tr>
+                    <tr><td>mention your permanent account number if any submit the proof</td></tr>
+                    <tr><td><b>PAN1<input type="text"></b></td><td><b>PAN2<input type="text"></b></td></tr></tr>
+                    <tr><td><b>PAN3<input type="text"></b></td><td><b>PAN4<input type="text"></b></td></tr></tr>
+                    <tr><td>verification</td></tr>
+                    <tr><td colspan="3">i/we have enclosed
+                        <select>
+                          <option>-- Please Select --</option>
+                          <option></option>
+                        </select>
+                      as proof of address<select>
+                          <option>----please select---</option>
+                        </select>as proof of dob<select><option>---pls select---</option></select></td></tr>
+                    <tr><td><b>whether you are willing to have</b>
+                        <td><input type="radio">physical and e-pan<input type="radio">e-pan<div><b>fees applicable</b></div></td>
+                    <tr><td><b>other details</b></td></tr>
+                    <tr><td><b>depository details</b></td></tr>
+                    <tr ><td colspan="3"><b>DP ID<input type="text"></b><b>Client id<input type="text"></b></td></tr>
+                    <tr><td><b>payment details</b></td></tr>
+                    <tr><td><b>online payment</b></td></tr>
+                </tr>
+            </table>
+        </form>
+<body>
+  
+   <table border="0" cellpadding="0" cellspacing="10" width="100%"> 
+   <tbody>
+     <tr>
+       <td>for paperless PAN application<input type="radio">yes<input type="radio">no</td>
+     </tr>
+<tr>
+    <td>
+			<input type="radio" value="DSC"> DSC
+		</td>
+</tr>
+               
+	<tr><td text-align="left">
+                 Upload Photo
+  </td>
+  
+                <td><input type="submit" value="choose file">
+                </td>
+                <td>
+                 Upload Signature
+                </td>
+                <td>
+                <input type="submit"  value="choose file">
+                </td>
+</tr>
+<tr>
+                <td text-align="left">
+                  Upload Document
+                </td>
+                <td>
+                <input type="submit" value="choose file">
+                </td>
+                </tr>
+
+               <tr>
+	<td><br>ALREADY UPLOADED PHOTO:</td><td><textarea rows="5" ></textarea>
+	</td></tr>
+	<tr><td>
+	<br>ALREADY UPLOADED SIGNATURE:</td><td><input type="text">
+	</td></tr>
+	<tr><td>
+	<br>ALREADY UPLOADED DOCUMENTS:</td><br><td><textarea rows="4" cols="20"></textarea>
+    </td>
+</tr>
+
+	<tr cellspacing="6">
+	<td align="CENTER" colspan="4" cellspacing="6">
+<input type="submit"  value="submit"> 
+  </td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
