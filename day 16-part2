@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <title>agency</title>
+    <style>
+         .box{
+            
+            background-color: white;
+            height:auto;
+            margin:30px;          
+         }
+       </style>
+</head>
+<body>
+    <div class="container-fluid bg-primary ">
+        <div class="container bg-primary">
+
+            <nav class="navbar text-white navbar-expand-sm">
+                <a href="#" class="navbar-brand text-white" style="font-size: 30px;"><b>AGENCY</b></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu" style="border:1px solid white;">
+                    
+                        
+                        </span><i class="fas fa-list ml-3" style="font-size: 44px; color: white; display:inline-block">
+                            <span class="sr-only">toogler</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></i>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarmenu">
+                     <ul class=" navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  text-white">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  text-white">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  text-white">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  text-white">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link  text-white">CONTACT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="false" aria-expanded="false">
+                                <i  style="font-size:20px;margin-bottom:5px"class="far fa-user-circle"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                            aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="google.com">google</a>
+                                <a class="dropdown-item" href="facebook.com">facebook</a>
+                                <a class="dropdown-item" href="twitter.com">twitter</a>
+                                <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Mahalakshmi</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 pt-5 pl-6" style="margin-top:15%; padding-bottom:15%">
+                        <p class="text-white h2" style="font-family: cursive;"><b>one page template for digital agency</b></p>
+                        <p class="text-white" style="font-family: cursive;">stop wasting time and money desigining and managing a website that doesn't got results.Happiness guaranteed!</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <img src="e://images/one.jpeg" style="border-bottom-left-radius:20px;margin-bottom:60px" class="img-fluid mt-5 pt-5">    
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+        <section  style="background-color:rgb(227, 235, 255);">
+            <div class="container p-5"> 
+                <div class="row justify-content-xl-around" style="background-color:rgb(227, 235, 255);">
+
+                    <div class="col-lg-3 box">
+                        <div class="row">
+                            <img src="http://cdn.onlinewebfonts.com/svg/img_522559.png" style="width:30%" alt="" class="img-fluid mx-auto pt-5">
+                        </div>
+                        <div class="row mx-auto">
+                           <div class="h5 p-2 mt-2 mx-auto"  style="font-family: cursive;">Graphic Design</div>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class="p-2 text-center mx-auto"  style="font-family: cursive;">Short description for the ones who look for something new.Awesome!.</div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-outline-primary mx-auto mt-4 mb-5" style="border-radius: 20px;">Know more</button>                    
+                    
+                        </div>
+                    </div>    
+                    <div class="col-lg-3 box">
+                        <div class="row">
+                            <img src="https://www.yorksj.ac.uk/media/content-assets/2019-courses/ba-product-design.jpg" style="width:40%" alt="" class="img-fluid mx-auto pt-5">
+                        </div>
+                        <div class="row mx-auto">
+                           <div class="h5 p-2 mt-3 mx-auto"  style="font-family: cursive;">Product Design</div>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class="p-2 text-center mx-auto"  style="font-family: cursive;">Short description for the ones who look for something new.Awesome!.</div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-outline-primary mx-auto mt-4 mb-5" style="border-radius: 20px;">Know more</button>                    
+                    
+                        </div>
+                    </div>
+                    <div class="col-lg-3 box">
+                        <div class="row">
+                            <img src="https://www.nyinst.com/wp-content/uploads/2018/09/UIUX-1.jpg" style="width:45%" alt="" class="img-fluid mx-auto pt-5">
+                        </div>
+                        <div class="row mx-auto">
+                           <div class="h5 p-2 mt-2 mx-auto" style="font-family: cursive;">ux&ui Design</div>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class="p-2 text-center mx-auto" style="font-family: cursive;">Short description for the ones who look for something new.Awesome!.</div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-outline-primary mx-auto mt-4 mb-5" style="border-radius: 20px;">Know more</button>                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-5">
+            <div class="container p-5">
+                <div class="row">
+                <div class="col-lg-4">
+                    <p><p class="text-black h2" style="font-family: cursive;position:relative;top:90px;left:50px"><b>EXPERINCING THE REAL TIME PROJECTS</b></p>
+                    <p class="text-black" style="font-family: cursive;position:relative;top:90px;left:50px">stop wasting time and money desigining and managing a website that doesn't got results.Happiness guaranteed!</p></p>
+                </div>
+                    <div class="col-lg-8">
+                        <img src="e://images/three.jpeg" style="width:90%;margin-left:40px;margin-top:50px"alt="" class="img-fluid pt-5">
+                    </div>
+                    
+                    <div class="col-lg-6 mt-5 pl-5 p-15">
+                        <div  class="col-lg-12  justify-content-center"style="font-size: 28px;font-family:cursive ;margin-left:270px;width:100%;margin-bottom:17px"><b>OUR KEY FEATURES</b></div> 
+                        <div class="row">
+                            <div class="col-lg-12 ">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="e://images/five.jpeg" class="img-fluid">
+                                    </div>
+                                    <div class="col-lg-10" style="font-family: cursive;">
+                                        <h5 class="font-weight-bold " style="font-family: cursive;">Powerful templates</h5>
+                                        <p style="font-family: cursive;">
+                                            Poorly designed presentations are a thing of the past. 
+                                            Create beautiful and high-quality content that is aligned 
+                                            with your brand, in just a few clicks.
+                                        </p>
+                                    </div>  
+                                </div>   
+                            </div>
+                        </div>
+                    
+                 
+                    <div class="row">
+                        <div class="col-lg-2" style="font-family: cursive;">
+                            <img src="e://images/four.jpeg" class="img-fluid ">
+                        </div>
+                        <div class="col-lg-10 m-10">
+                            <h5 class="font-weight-bold " style="font-family: cursive;">Work anywhere</h5>
+                            <p style="font-family: cursive;">
+                                Poorly designed presentations are a thing of the past. 
+                                Create beautiful and high-quality content that is aligned 
+                                with your brand, in just a few clicks.
+                            </p>
+                        </div>  
+                    </div>   
+                    
+                    <div class="row">
+                        <div class="col-lg-2" style="font-family: cursive;">
+                            <img src="e://images/seven.jpeg" class="img-fluid">
+                        </div>
+                        <div class="col-lg-10">
+                            <h5 class="font-weight-bold m-10 " style="font-family: cursive;">Designed for everyone</h5>
+                            <p style="font-family: cursive;">
+                                Poorly designed presentations are a thing of the past. 
+                                Create beautiful and high-quality content that is aligned 
+                                with your brand, in just a few clicks.
+                            </p>
+                        </div>  
+                    </div>  
+
+                    <div class="row">
+                        <div class="col-lg-2 " style="font-family: cursive;">
+                            <img src="e://images/six.jpeg" class="img-fluid">
+                        </div>
+                        <div class="col-lg-10 ">
+                            <h5 class="font-weight-bold " style="font-family: cursive;">Updated in real time</h5>
+                            <p style="font-family: cursive;">
+                                Poorly designed presentations are a thing of the past. 
+                                Create beautiful and high-quality content that is aligned 
+                                with your brand, in just a few clicks.
+                            </p>
+                        </div>  
+                    </div>  
+                  </div>
+                 </div>
+                </div>
+            </div>
+       </section>
+      
+
+    
+    
+</body>
+</html>
