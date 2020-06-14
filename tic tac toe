@@ -1,0 +1,302 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="tic.css">
+    </head>
+         <body>
+            <div class="board " id="board">
+
+            </div>
+            <div class="winning-message" id="winningmessage">
+<button id="restartbutton" onclick="button">restart</button>
+            </div>
+        <script>
+            var a=document.createElement("div")
+            a.setAttribute("class","cell ")
+            a.setAttribute="data-cell"
+            var b=document.getElementById("board")
+            b.appendChild(a)
+            var c=document.createElement("div")
+            c.setAttribute("class","cell ")
+            c.setAttribute="data-cell"
+            b.appendChild(c)
+            var d=document.createElement("div")
+            d.setAttribute("class","cell")
+            d.setAttribute="data-cell"
+            b.appendChild(d)
+            var e=document.createElement("div")
+            e.setAttribute("class","cell")
+            e.setAttribute="data-cell"
+            b.appendChild(e)
+            var f =document.createElement("div")
+            f.setAttribute("class","cell")
+            f.setAttribute="data-cell"
+            b.appendChild(f)
+            var g=document.createElement("div")
+            g.setAttribute("class","cell")
+            g.setAttribute="data-cell"
+            b.appendChild(g)
+            var j=document.createElement("div")
+            j.setAttribute("class","cell")
+            j.setAttribute="data-cell"
+            b.appendChild(j)
+            var k=document.createElement("div")
+            k.setAttribute("class","cell")
+            k.setAttribute="data-cell"
+            b.appendChild(k)
+            var l=document.createElement("div")
+            l.setAttribute("class","cell")
+            l.setAttribute="data-cell"
+            b.appendChild(l)        
+        var h=document.createElement("div");
+        h.setAttribute("id","data-winning-message-text")
+        var i=document.getElementById("winningmessage")
+         i.appendChild(h)
+
+         const X = 'x'
+const circle = 'o'
+const WINNING_COMBINATIONS = [
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
+  [2, 4, 6]
+]
+const cellElements = document.querySelectorAll('.cell')
+const board = document.getElementById('board')
+const winningMessageElement = document.getElementById('winningmessage')
+const restartButton = document.getElementById('restartbutton')
+const winningMessageTextElement = document.querySelector('#data-winning-message-text')
+let circleTurn
+
+Game()
+
+restartButton.addEventListener('click', Game)
+
+function Game() {
+  
+  cellElements.forEach(cell => {
+    cell.classList.remove(X)
+    cell.classList.remove(circle)
+    cell.removeEventListener('click', handleClick)
+    cell.addEventListener('click', handleClick, { once: true })
+  })
+  setBoard()
+  winningMessageElement.classList.remove('show')
+}
+
+function handleClick(e) {
+  const cell = e.target
+  const currentClass = circleTurn ? circle : X
+  placeMark(cell, currentClass)
+  if (isWin(currentClass)) {
+    endGame(false)
+  } else if (isDraw()) {
+    endGame(true)
+  } else {
+    swapTurns()
+    setBoard()
+  }
+}
+
+function endGame(draw) {
+  if (draw) {
+    winningMessageTextElement.innerText = 'Draw!'
+  } else {
+    winningMessageTextElement.innerText = `${circleTurn ? "player 2" : "player 1"} Wins!`
+  }
+  winningMessageElement.classList.add('show')
+}
+
+function isDraw() {
+  return [...cellElements].every(cell => {
+    return cell.classList.contains(X) || cell.classList.contains(circle)
+  })
+}
+
+function placeMark(cell, currentClass) {
+  cell.classList.add(currentClass)
+}
+
+function swapTurns() {
+  circleTurn = !circleTurn
+}
+
+function setBoard() {
+  board.classList.remove(X)
+  board.classList.remove(circle)
+  if (circleTurn) {
+    board.classList.add(circle)
+  } else {
+    board.classList.add(X)
+  }
+}
+
+function isWin(currentClass) {
+  return WINNING_COMBINATIONS.some(combination => {
+    return combination.every(index => {
+      return cellElements[index].classList.contains(currentClass)
+    })
+  })
+}
+
+        </script>
+        </body>
+  
+</html>
+
+**************css****************
+*,* ::after, *::before{
+    box-sizing: border-box;
+}
+
+:root{
+    --cell-size:100px;
+    --mark-size:calc(var(--cell-size)* .9);
+}
+ 
+body{
+    margin:0px;
+    background:linear-gradient(red,blue,black);
+}
+
+.board{
+    border:2px  solid blue; 
+    width:100vw;
+    height:100vh;
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    grid-template-columns: repeat(3,auto);
+}
+.cell{
+    border:2px  solid black;
+    width:var(--cell-size);
+    height:var(--cell-size);
+    background-color:green;
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    cursor:pointer;
+}
+.cell.x,
+.cell.o {
+    cursor:not-allowed;
+}
+.cell.x::before,
+.cell.x::after
+ {
+    background-color: goldenrod;
+}
+.board.x  .cell:not(.x):not(.o):hover::before,
+.board.x  .cell:not(.x):not(.o):hover::after
+{
+    background-color: lightgrey;
+}
+.cell.o::before,
+.cell.o::after
+ {
+    background-color: goldenrod;
+}
+.board.o  .cell:not(.x):not(.o):hover::before,
+.board.o  .cell:not(.x):not(.o):hover::after
+{
+    background-color: goldenrod;
+}
+
+.cell.x::before,
+.cell.x::after
+{
+    content:"";
+    position:absolute;
+    width:calc(var(--mark-size)* .15);
+    height : var(--mark-size);
+   
+}
+.board.x  .cell:not(.x):not(.o):hover::before,
+.board.x  .cell:not(.x):not(.o):hover::after
+ {
+    content:"";
+    position:absolute;
+    width:calc(var(--mark-size)* .15);
+    height : var(--mark-size);
+    background-color:goldenrod;
+}
+.cell.x::before,
+.board.x  .cell:not(.x):not(.o):hover::before
+{
+    transform:rotate(45deg);
+}
+.cell.x::after,
+.board.x  .cell:not(.x):not(.o):hover::after
+{
+    transform:rotate(-45deg);
+}
+
+
+.cell.o::before,
+.cell.o::after,
+.board.o  .cell:not(.x):not(.o):hover::before,
+.board.o  .cell:not(.x):not(.o):hover::after
+{
+    content:"";
+    position:absolute;
+   border-radius: 50%;
+   
+}
+
+.cell.o::before,
+.board.o  .cell:not(.x):not(.o):hover::before
+{
+    width:var(--mark-size);
+    height : var(--mark-size);
+}
+.cell.o::after,
+.board.o  .cell:not(.x):not(.o):hover::after
+{
+    width:calc(var(--mark-size)* .7);
+    height : calc(var(--mark-size)* .7);
+    background-color: green;
+}
+
+.winning-message{
+    display:none;
+flex-direction:column;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.9);
+  
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color:white;
+    font-size:xx-large;
+}
+
+.winning-message button{
+    background-color: white;
+    border:2px solid black;
+    cursor: pointer;
+    padding:30px;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 20px;
+   
+}
+
+.winning-message button:hover{
+    background-color: black;
+    color:white;
+    border:2px solid black;
+}
+
+.winning-message.show{
+    display:flex;
+}
