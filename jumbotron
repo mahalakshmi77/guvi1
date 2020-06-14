@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            .button:hover {
+                background-color: royalblue;
+            }
+        </style>
+        <body >
+            <div style="background-color: lightgrey;border-radius: 20px;width:1400px">
+                <header style="font-size: x-large;margin-left:23%;color:grey">
+                    starter template lucoid <button class="button" style="color:black;margin-left:18%;margin:right:20px">home </button> <button class="button" style="color:black;margin-left:1%;margin:right:20px">about</button><button class="button" style="color:black;margin-left:1%;margin:right:20px">contact</button>
+                </header>
+                <hr width="683px" color="grey" style="margin-left:21%;margin-top:20px;opacity:0.2">
+            <div style="width:620px;height:400px;margin-left:310px;margin-top:30px;background-color: grey;text-align:center;padding-top:10px;padding:20px">
+                <h1> jumbotron heading</h1>
+                <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+                <button style="background-color:green;padding:10px;margin:20px">SIGN UP TODAY</button> <br>
+                <button style="background-color:blue;padding:10px;margin:20px;margin-top:10px">LAUNCH DEMO MODEL</button>
+             </div style="width:50%;height:50%;text-align:left">
+             <div style="font-size: x-large;margin-left:22.5%;margin-top:20px;margin-bottom:5px"> sub heading</div>
+             <p style="margin-left:312px;text-align: left;">Success denotes the achievement of aims or<br>attainment of goals or social status.</p>
+             <div>
+            </div style="width:50%;height:50%;text-align:left">
+            <div style="font-size: x-large;margin-left:22.5%;margin-top:20px;margin-bottom:5px"> sub heading</div>
+            <p style="margin-left:312px;text-align: left;">Success denotes the achievement of aims or<br>attainment of goals or social status.</p>
+            <div>
+            </div style="width:50%;height:50%;text-align:left">
+            <div style="font-size: x-large;margin-left:22.5%;margin-top:20px;margin-bottom:5px"> sub heading</div>
+            <p style="margin-left:312px;text-align: left;">Success denotes the achievement of aims or<br>attainment of goals or social status.</p></div>
+
+            <div tyle="width:50%;height:50%;text-align:right">
+               
+                <div style="font-size: x-large;margin-left:50%;position:relative;bottom:300px">sub heading</div>
+                <p style="margin-left:665px;text-align: left;position:relative;bottom:300px">Success denotes the achievement of aims or<br>attainment of goals or social status.</p>
+                <div style="font-size: x-large;margin-left:50%;position:relative;bottom:300px">sub heading</div>
+                <p style="margin-left:665px;text-align: left;position:relative;bottom:300px">Success denotes the achievement of aims or<br>attainment of goals or social status.</p>
+                <div style="font-size: x-large;margin-left:50%;position:relative;bottom:300px">sub heading</div>
+                <p style="margin-left:665px;text-align: left;position:relative;bottom:300px">Success denotes the achievement of aims or<br>attainment of goals or social status.</p>
+            </div>
+            <hr width="680px" color="grey" style="margin-left:300px;text-align: left;position:relative;bottom:300px;opacity:0.2">
+            <footer style="margin-left:340px;text-align: left;position:relative;bottom:280px"> starter<span style="color:lightblue">@tscoid.com</span></div><span style="color:grey">2017</span></footer>
+ </div>
+        </body>
+    </head>
+</html>
