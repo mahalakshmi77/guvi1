@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <body>
+            <div style="margin-left:200px">
+            <button style="background-color: pink;font-size: 20px;">gridview</button><button style="background-color: royalblue;font-size: 20px;">listview</button>
+            </div>
+            <div>
+                <div style="position:absolute;top:40px">
+                <img src="https://th.bing.com/th/id/OIP.VaQHItXswINeZZm7DsX3jAHaE6?pid=Api&rs=1" style="width:400px;height:250;margin-left:200px">
+                <div><h3 style="text-align: left;width:400px;height:250;margin-left:200px;">product description</h3><br>
+                    <p style="text-align: left;width:400px;position:absolute;top:300px;left:200px">The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.</p>
+                <span style="position:absolute;top:450px;left:200px" >$21.00</span> <button style="position:absolute;top:450px;left:520px;background-color: lightgreen;">add to cart</button></div>
+                </div>
+                <div style="width:400px;height:500px;background-color:white;margin-left:640px;position:absolute;top:40px;display :block"> 
+                    <img src="https://th.bing.com/th/id/OIP.VaQHItXswINeZZm7DsX3jAHaE6?pid=Api&rs=1" style="width:400px;height:250;margin-left:1px">
+                    <div><h3 style="text-align: left;width:400px;height:250;margin-left:1px;">product description</h3><br>
+                        <p style="text-align: left;width:400px;position:absolute;top:300px;left:1px">The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.</p>
+                    <span style="position:absolute;top:450px;left:1px" >$21.00</span> <button style="position:absolute;top:450px;left:280px;background-color: lightgreen;">add to cart</button></div>
+                </div>
+                <div style="width:400px;height:500px;background-color:white;margin-left:1080px;position:absolute;top:40px;display :block"> 
+                    <img src="https://th.bing.com/th/id/OIP.VaQHItXswINeZZm7DsX3jAHaE6?pid=Api&rs=1" style="width:400px;height:250;margin-left:1px">
+                    <div><h3 style="text-align: left;width:400px;height:250;margin-left:1px;">product description</h3><br>
+                        <p style="text-align: left;width:400px;position:absolute;top:300px;left:1px">The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.</p>
+                    <span style="position:absolute;top:450px;left:1px" >$21.00</span> <button style="position:absolute;top:450px;left:280px;background-color: lightgreen;">add to cart</button></div>
+                </div>
+                <div style="width:400px;height:500px;background-color:white;margin-left:1080px;position:absolute;top:540px;display :block"> 
+                    <img src="https://th.bing.com/th/id/OIP.VaQHItXswINeZZm7DsX3jAHaE6?pid=Api&rs=1" style="width:400px;height:250;margin-left:1px">
+                    <div><h3 style="text-align: left;width:400px;height:250;margin-left:1px;">product description</h3><br>
+                        <p style="text-align: left;width:400px;position:absolute;top:300px;left:1px">The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.</p>
+                    <span style="position:absolute;top:450px;left:1px" >$21.00</span> <button style="position:absolute;top:450px;left:280px;background-color: lightgreen;">add to cart</button></div>
+                </div>
+                <div style="width:400px;height:500px;background-color:white;margin-left:640px;position:absolute;top:540px;display :block"> 
+                    <img src="https://th.bing.com/th/id/OIP.VaQHItXswINeZZm7DsX3jAHaE6?pid=Api&rs=1" style="width:400px;height:250;margin-left:1px">
+                    <div><h3 style="text-align: left;width:400px;height:250;margin-left:1px;">product description</h3><br>
+                        <p style="text-align: left;width:400px;position:absolute;top:300px;left:1px">The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.</p>
+                    <span style="position:absolute;top:450px;left:1px" >$21.00</span> <button style="position:absolute;top:450px;left:280px;background-color: lightgreen;">add to cart</button></div>
+                </div>
+                <div style="width:400px;height:500px;background-color:white;margin-left:200px;position:absolute;top:540px;display :block"> 
+                    <img src="https://th.bing.com/th/id/OIP.VaQHItXswINeZZm7DsX3jAHaE6?pid=Api&rs=1" style="width:400px;height:250;margin-left:1px">
+                    <div><h3 style="text-align: left;width:400px;height:250;margin-left:1px;">product description</h3><br>
+                        <p style="text-align: left;width:400px;position:absolute;top:300px;left:1px">The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.</p>
+                    <span style="position:absolute;top:450px;left:1px" >$21.00</span> <button style="position:absolute;top:450px;left:280px;background-color: lightgreen;">add to cart</button></div>
+                </div>
+
+            </div>
+        </body>
+    </head>
+</html>
