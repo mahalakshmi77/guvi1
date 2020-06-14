@@ -1,0 +1,101 @@
+<htm>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+        <form style="background-color: lightgrey;border-radius: 30px;">
+            <table cellpadding="0" cellspacing="0" width="70%" style="margin-left:20%">
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>FULL NAME</b>   <img src="https://cdn.onlinewebfonts.com/svg/img_191958.png" style="width:60px;height:40px;border-radius:10px;position:relative;left:140px;bottom:2px"></td>
+                    <input type="text" id="name" placeholder="FULL NAME" style="position:relative;right:15px;left:590px;top:40px;background-color:white;width:350px;height:40px;;right:2px"></td>
+                </tr>
+
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>ADDRESS LINE1</b>   <img src="https://imageog.flaticon.com/icons/png/512/69/69524.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" style="width:60px;height:40px;border-radius:10px;margin-left:110px;">
+                       
+                       
+                         <input type="text"  id="address1" placeholder="ADDRESS LINE1" style="position:relative;right:15px;bottom:12px;background-color:white;width:350px;height:40px;;right:2px"></td>
+                </tr>
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>ADDRESS LINE2</b>   <img src="https://imageog.flaticon.com/icons/png/512/69/69524.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" style="width:60px;height:40px;border-radius:10px;margin-left:110px">
+                       
+                       
+                         <input type="text" id="address2" placeholder="ADDRESS LINE2" style="position:relative;right:3px;bottom:12px;background-color:white;width:350px;height:40px"></td>
+                </tr> 
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>CITY</b>   <img src="https://imageog.flaticon.com/icons/png/512/69/69524.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" style="width:60px;height:40px;border-radius:10px;margin-left:195;">
+                       
+                       
+                         <input type="text"  id="city" placeholder="CITY" style="position:relative;;right:3px;bottom:10px;background-color:white;width:350px;height:40px"></td>
+                </tr>     
+                
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>STATE/PROVINCES/REGION</b>   <img src="https://imageog.flaticon.com/icons/png/512/69/69524.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" style="width:60px;height:40px;border-radius:10px;margin-left:20px;">
+                       
+                       
+                         <input type="text"  id="state" placeholder="STATE/PROVINCES/REGION" style="position:relative;;right:3px;bottom:10px;background-color:white;width:350px;height:40px"></td>
+                </tr>   
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>POSTAL CODE/ZIP</b>   <img src="https://imageog.flaticon.com/icons/png/512/69/69524.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" style="width:60px;height:40px;border-radius:10px;margin-left:95px;">
+                       
+                       
+                         <input type="text"id="zip" placeholder="POSTAL CODE/ZIP" style="position:relative;;right:3px;bottom:10px;background-color:white;width:350px;height:40px"></td>
+                </tr> 
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>COUNTRY</b>   <img src="https://cdn3.iconfinder.com/data/icons/photo-camera-ui/512/mobile-navigation-bar-menu-responsive-ui-128.png" style="width:60px;height:40px;border-radius:20px;margin-left:150px;">
+                       
+                       
+                       <select style="position:relative;bottom:10px;width:355;height:40px;background-color: white;"><option>A REALLY LONG OPTION TO PUSH THE MENU</option></select>
+                </tr> 
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>EMAIL</b>   <span class="material-icons" style="width:60px;height:40px;border-radius:20px;margin-left:190px;">
+                        email
+                    </span>
+                       
+                       
+                         <input type="text" id="email" placeholder="EMAIL" style="position:relative;;right:12px;bottom:10px;top:5px;background-color:white;width:355px;height:40px"></td>
+                </tr>   
+                <tr >
+                    <td colspan="3" style="padding:10px"> <b>PHONE</b>   <span class="material-icons" style="width:60px;height:40px;border-radius:20px;margin-left:190px;">
+                        phone_enabled
+                    </span>
+                       
+                       
+                         <input type="text" id="phone" placeholder="PHONE" style="position:relative;;right:15px;bottom:10px;top:5px;background-color:white;width:355px;height:40px"></td>
+                </tr> 
+                <tr><td align="center"><input type="submit" value="submit" id="submit" onclick=check()> </td></tr>
+                
+                
+                
+
+
+            </table>
+        </form>
+        <script>
+            
+function check()
+{
+    var emailaddress=document.getElementById('email');
+    var name1=document.getElementById('name');
+    var city1=document.getElementById('name');
+    var state1=document.getElementById('name');
+    var zip1=document.getElementById('name');
+    var phone1=document.getElementById('name');
+    var Address=document.getElementById('address1');
+   
+    if(emailaddress.value===""|| name1.value==="" || city1.value==="" || state1.value==="" || zip1.value==="" || phone1.value==="" || Address.value==="") 
+    {
+        alert("failed ! enter correct details in all feilds");
+        }
+        else{
+            alert(" susscesfully submitted thank you!");
+            
+        }
+    }
+         </script>
+        </div>
+    </body>
+</htm>
