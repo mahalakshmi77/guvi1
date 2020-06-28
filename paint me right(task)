@@ -1,0 +1,188 @@
+<html>
+    <body style="margin:0px;background-color: bisque;">
+        <div id="my_div1" class="circle" style="margin-left: 120px;"></div>
+        <script>
+            
+            var a=document.createElement("div");
+           a.setAttribute("id","c1")
+          
+            a.setAttribute("style","cursor:pointer;width:20%;height:30%;background-color:white;border:1px solid black;border-radius:100%;margin-top:10%");
+           // a.setAttribute("data-cell")
+            var b=document.getElementById('my_div1');
+            b.setAttribute("class","circle")
+            b.appendChild(a)
+            var c=document.createElement("div");
+            c.setAttribute("id","c2")
+            c.setAttribute("class","circle")
+            c.setAttribute("style","cursor:pointer;width:20%;height:30%;background-color:white;border:1px solid black;border-radius:100%;position:relative;bottom:210px;left:300px");
+            b.appendChild(c)
+            var d=document.createElement("div");
+            d.setAttribute("id","c3")
+            d.setAttribute("class","circle")
+            d.setAttribute("style","cursor:pointer;width:20%;height:30%;background-color:white;border:1px solid black;border-radius:100%;position:relative;bottom:410px;left:600px");
+            b.appendChild(d)
+            var e=document.createElement("div");
+            e.setAttribute("id","c4")
+            e.setAttribute("class","circle")
+            e.setAttribute("style","cursor:pointer;width:20%;height:30%;background-color:white;border:1px solid black;border-radius:100%;position:relative;bottom:610px;left:900px");
+            b.appendChild(e)
+           
+            var f=document.createElement("button");
+            f.setAttribute("style","cursor:pointer;width:10%;height:10%;background-color:red;border:1px solid black;position:relative;bottom:610px;left:630px;bottom:400px;color:white;font-size:35px;border-radius:60%");
+            f.innerText="check"
+            f.setAttribute("id","check")
+            document.body.append(f)
+            var start=document.createElement("button");
+            start.setAttribute("style","cursor:pointer;width:10%;height:10%;background-color:red;border:1px solid black;position:relative;bottom:940px;left:10px;color:white;font-size:35px;border-radius:60%");
+            start.innerText="start"
+            start.setAttribute("id","start")
+            document.body.append(start)
+
+            var heart=document.createElement("div")
+          heart.setAttribute("style","position:relative;bottom:1000px;left:1200px")
+            heart.setAttribute("class","heart")
+            document.body.append(heart)
+            var cl=document.createElement("div")
+            cl.setAttribute("style","width:30px;height:34px;background-color:red;border-radius:50%;clip-path:polygon()")
+            heart.appendChild(cl)
+            var cr=document.createElement("div")
+            cr.setAttribute("style","width:30px;height:34px;background-color:red;margin-left:33px;position:relative;bottom:33px;border-radius:50%")
+            heart.appendChild(cr)
+            var cr=document.createElement("div")
+            cr.setAttribute("style","width:30px;height:34px;background-color:red;margin-left:68px;position:relative;bottom:65px;border-radius:50%")
+            heart.appendChild(cr)
+           
+
+            var red=document.createElement("button");
+            red.setAttribute("style","cursor:pointer;width:5%;height:6%;background-color:red;border:1px solid black;position:relative;left:580px;bottom:650px;color:white;font-size:35px;border-radius:40%");
+            //but1.innerText="check"
+            red.setAttribute("id","red")
+            document.body.append(red)
+            var but2=document.createElement("button");
+            but2.setAttribute("style","cursor:pointer;width:5%;height:6%;background-color:green;border:1px solid black;position:relative;left:580px;bottom:650px;color:white;font-size:35px;border-radius:40%");
+            //but1.innerText="check"
+            but2.setAttribute("id","green")
+            document.body.append(but2)
+            var but3=document.createElement("button");
+            but3.setAttribute("style","cursor:pointer;width:5%;height:6%;background-color:yellow;border:1px solid black;position:relative;left:580px;bottom:650px;color:white;font-size:35px;border-radius:40%");
+            //but1.innerText="check"
+            but3.setAttribute("id","yellow")
+            document.body.append(but3)
+            var but4=document.createElement("button");
+            but4.setAttribute("style","cursor:pointer;width:5%;height:6%;background-color:blue;border:1px solid black;position:relative;left:580px;bottom:650px;color:white;font-size:35px;border-radius:40%");
+            //but1.innerText="check"
+            but4.setAttribute("id","blue")
+            document.body.append(but4)
+
+            //start
+            var flag=0;
+            start.addEventListener("click",function timer() {
+                //var flag=2;
+                setTimeout(function (){
+                    flag++                  
+                if(flag===1){
+                    a.style.background="red";
+                    c.style.background="white" ;
+                    d.style.background="green";
+                    e.style.background="yellow";
+                
+                }
+                if(flag===2){
+                    a.style.background="blue";
+                    c.style.background="red" ;
+                    d.style.background="green";
+                    e.style.background="yellow";
+                
+                }
+                if(flag===3){
+                    a.style.background="yellow";
+                    c.style.background="red" ;
+                    d.style.background="blue";
+                    e.style.background="green";
+                
+                }
+                if(flag===4){
+                    a.style.background="white";
+                    c.style.background="red" ;
+                    d.style.background="green";
+                    e.style.background="yellow";
+                
+                }
+                if(flag===5){
+                    a.style.background="green";
+                    c.style.background="red" ;
+                    d.style.background="blue";
+                    e.style.background="yellow";
+                
+                }
+                if(flag%2===0){
+                    a.style.background="blue";
+                    c.style.background="white" ;
+                    d.style.background="yellow";
+                    e.style.background="red";
+                
+                }
+                if((flag!==1) &(flag!==2)&(flag!==3)&(flag!==4)&(flag!==5) & (flag%2!==0) ){
+                    a.style.background="green";
+                    c.style.background="red" ;
+                    d.style.background="white";
+                    e.style.background="yellow";
+                }},5000)
+                    
+                });
+                  
+              //adding colors     
+            red.addEventListener("click",function(){             
+                a.style.background="red"
+            });
+            green.addEventListener("click",function(){             
+                c.style.background="green"
+            });
+            yellow.addEventListener("click",function(){             
+                d.style.background="yellow"
+            });
+            blue.addEventListener("click",function(){             
+                e.style.background="blue"
+            });
+           //check
+           check.addEventListener("click",function (){
+               var life=3;
+               if(flag===1){
+                 a.style.background==="red" && c.style.background==="white" && d.style.background==="green" && a.style.background==="yellow"
+                 
+               }alert("success") 
+               if(flag===2){
+                 a.style.background==="blue" && c.style.background==="red" && d.style.background==="green" && a.style.background==="yellow" 
+                 alert(flag) 
+               }
+               if(flag===3){
+                 a.style.background==="yellow" && c.style.background==="red" && d.style.background==="blue" && a.style.background==="green" 
+                 alert(flag) 
+               }
+               if(flag===4){
+                 a.style.background==="white" && c.style.background==="red" && d.style.background==="green" && a.style.background==="yellow"
+                 alert(flag) 
+               }
+               if(flag===5){
+                 a.style.background==="green" && c.style.background==="red" && d.style.background==="blue" && a.style.background==="yellow" 
+                 alert(flag) 
+               }
+               if(flag%2===0){
+                 a.style.background==="blue" && c.style.background==="white" && d.style.background==="yellow" && a.style.background==="red"
+                 alert(flag)  
+               }
+               if((flag!==1) &(flag!==2)&(flag!==3)&(flag!==4)&(flag!==5) & (flag%2!==0) ){
+                 a.style.background==="green" && c.style.background==="red" && d.style.background==="white" && a.style.background==="yellow"
+                 alert(flag)  
+               }
+               else{
+               alert("failed")
+                   life--
+                   while(life===0){
+                   alert("game over")
+                   }
+               }
+           })
+        </script>
+    </body>
+</html>
