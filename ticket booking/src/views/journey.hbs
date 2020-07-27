@@ -1,0 +1,59 @@
+<div class="container">
+  <h1>Journey form</h1>
+  <form id="journey-form" action="{{action}}" method="{{method}}" _method="{{method}}">
+
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="firstName" placeholder="First Name" required />
+    <br />
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lastName" placeholder="Last Name" required />
+    <br />
+    <label for="customer-mailadd">Mail Address</label>
+    <input type="text" id="customer-mailadd" name="mailAddress" placeholder="MailAddress" required />
+    <br />
+    <label for="customer-Age">Age</label>
+    <input type="text" id="customer-Age" name="age" placeholder="Age" required />
+    <br />
+    <label for="person">No of Persons:</label>
+
+    <select name="persons" id="person">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+
+    </select>
+    </br>
+    <label for="from">From:</label>
+
+    <select name="from" id="from">
+      <option value="1">Chennai</option>
+      <option value="2">Banglore</option>
+
+    </select>
+    </br>
+    <label for="To">TO:</label>
+
+    <select name="To" id="To">
+      <option value="1">Chennai</option>
+      <option value="2">Banglore</option>
+
+    </select>
+    </br>
+    <label for="date">Select Journey Date</label>
+    <input type="date" id="date" name="date">
+    </br>
+    <input class="btn btn-primary" type="submit" value="Search" />
+  </form>
+</div>
+<script>
+  const $addcustomerForm = document.querySelector("#journey-form");
+  console.log($addcustomerForm);
+  $addcustomerForm.addEventListener("submit", event => {
+    const submitUrl = $addcustomerForm.action;
+    const date = document.getElementById('date').value;
+    console.log(date);
+    sessionStorage.setItem("date", date);
+    window.location = submitUrl;
+  });
+</script>
