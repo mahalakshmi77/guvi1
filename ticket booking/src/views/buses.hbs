@@ -1,0 +1,41 @@
+<div class="container">
+  <h1>Bus Details</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Busno</th>
+        <th scope="col">From</th>
+        <th scope="col">TO</th>
+        <th scope="col">Date</th>
+        <th scope="col">Available tickets</th>
+        <th scope="col">Action</th>
+
+      </tr>
+    </thead>
+    <tbody id="book">
+    </tbody>
+  </table>
+  <a class="btn btn-primary btn-lg" alert="Booking confirmed" href="/addStudents">confirm booking</a>
+</div>
+<script>
+  const sfrom = sessionStorage.getItem('from');
+  const sto = sessionStorage.getItem('to');
+
+  const datas = `
+      {{#each data}}
+      {{#if this.from}}
+      <tr>
+        <th scope="row">{{this.id}}</th>
+        <td>{{this.busno}}</td>
+        <td>{{this.from}}</td>
+        <td>{{this.to}}</td>
+        <td>{{this.date}}</td>
+        <td>{{this.ticket}}</td>
+        <td><a href="/edit-student/{{this.id}}">Edit</a></td>
+        <td><a href="/delete-student/{{this.id}}" data-studentId="{{this.id}}" class="delete-button">Delete</a></td>
+      </tr>
+     {{/if}}
+      {{/each}}`;
+  document.getElementById('book').innerHTML = datas
+</script>
